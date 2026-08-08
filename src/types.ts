@@ -1,4 +1,4 @@
-export type Collana = 'Previdenza Sociale' | 'Diritto delle Nuove Tecnologie';
+export type Collana = 'Previdenza Sociale' | 'Diritto delle Nuove Tecnologie' | 'CLP Compliance Toolkit';
 export type Stato = 'bozza' | 'pubblicato';
 
 export interface Publication {
@@ -16,6 +16,9 @@ export interface Publication {
   link_amazon_ebook: string | null;
   disponibile_cartaceo: boolean;
   disponibile_ebook: boolean;
+  numero_volume: number | null;
+  prezzo_cartaceo: number | null;
+  prezzo_ebook: number | null;
   stato: Stato;
   created_at: string;
   updated_at: string;

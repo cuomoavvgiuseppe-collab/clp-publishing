@@ -9,8 +9,11 @@ type FormData = {
   titolo: string;
   sottotitolo: string;
   collana: Collana;
+  numero_volume: string;
   anno: string;
   numero_pagine_circa: string;
+  prezzo_cartaceo: string;
+  prezzo_ebook: string;
   descrizione: string;
   descrizione_estesa: string;
   link_amazon_cartaceo: string;
@@ -26,8 +29,11 @@ const EMPTY: FormData = {
   titolo: '',
   sottotitolo: '',
   collana: 'Previdenza Sociale',
+  numero_volume: '',
   anno: String(new Date().getFullYear()),
   numero_pagine_circa: '',
+  prezzo_cartaceo: '',
+  prezzo_ebook: '',
   descrizione: '',
   descrizione_estesa: '',
   link_amazon_cartaceo: '',
@@ -44,8 +50,11 @@ function pubToForm(p: Publication): FormData {
     titolo: p.titolo,
     sottotitolo: p.sottotitolo ?? '',
     collana: p.collana,
+    numero_volume: p.numero_volume ? String(p.numero_volume) : '',
     anno: String(p.anno),
     numero_pagine_circa: p.numero_pagine_circa ? String(p.numero_pagine_circa) : '',
+    prezzo_cartaceo: p.prezzo_cartaceo ? String(p.prezzo_cartaceo) : '',
+    prezzo_ebook: p.prezzo_ebook ? String(p.prezzo_ebook) : '',
     descrizione: p.descrizione ?? '',
     descrizione_estesa: p.descrizione_estesa ?? '',
     link_amazon_cartaceo: p.link_amazon_cartaceo ?? '',
@@ -98,7 +107,10 @@ export default function PublicationForm({
     const payload = {
       ...form,
       anno: parseInt(form.anno, 10),
+      numero_volume: form.numero_volume ? parseInt(form.numero_volume, 10) : null,
       numero_pagine_circa: form.numero_pagine_circa ? parseInt(form.numero_pagine_circa, 10) : null,
+      prezzo_cartaceo: form.prezzo_cartaceo ? parseFloat(form.prezzo_cartaceo) : null,
+      prezzo_ebook: form.prezzo_ebook ? parseFloat(form.prezzo_ebook) : null,
       sottotitolo: form.sottotitolo || null,
       descrizione: form.descrizione || null,
       descrizione_estesa: form.descrizione_estesa || null,
@@ -180,7 +192,7 @@ export default function PublicationForm({
         />
       </div>
 
-      <div className="grid sm:grid-cols-3 gap-5">
+      <div className="grid sm:grid-cols-4 gap-5">
         <div>
           <label style={labelStyle}>Collana *</label>
           <select
@@ -190,7 +202,19 @@ export default function PublicationForm({
           >
             <option value="Previdenza Sociale">Previdenza Sociale</option>
             <option value="Diritto delle Nuove Tecnologie">Diritto delle Nuove Tecnologie</option>
+            <option value="CLP Compliance Toolkit">CLP Compliance Toolkit</option>
           </select>
+        </div>
+        <div>
+          <label style={labelStyle}>N° volume</label>
+          <input
+            type="number"
+            style={inputStyle}
+            value={form.numero_volume}
+            onChange={(e) => set('numero_volume', e.target.value)}
+            min="1"
+            placeholder="es. 5"
+          />
         </div>
         <div>
           <label style={labelStyle}>Anno *</label>
@@ -264,6 +288,33 @@ export default function PublicationForm({
             onChange={(e) => set('link_amazon_ebook', e.target.value)}
             type="url"
             placeholder="https://www.amazon.it/dp/ASIN?tag=clppublishing-21"
+          />
+        </div>
+      </div>
+
+      <div className="grid sm:grid-cols-2 gap-5">
+        <div>
+          <label style={labelStyle}>Prezzo Cartaceo (€)</label>
+          <input
+            type="number"
+            style={inputStyle}
+            value={form.prezzo_cartaceo}
+            onChange={(e) => set('prezzo_cartaceo', e.target.value)}
+            min="0"
+            step="0.01"
+            placeholder="es. 22.99"
+          />
+        </div>
+        <div>
+          <label style={labelStyle}>Prezzo eBook (€)</label>
+          <input
+            type="number"
+            style={inputStyle}
+            value={form.prezzo_ebook}
+            onChange={(e) => set('prezzo_ebook', e.target.value)}
+            min="0"
+            step="0.01"
+            placeholder="es. 12.99"
           />
         </div>
       </div>

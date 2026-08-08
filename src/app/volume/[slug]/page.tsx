@@ -98,10 +98,33 @@ export default async function VolumePage({
               </p>
             )}
             <p className="text-sm mb-6" style={{ color: '#9A9488' }}>
-              {[pub.anno, pub.numero_pagine_circa ? `${pub.numero_pagine_circa} pagine circa` : null]
+              {[
+                pub.collana,
+                pub.numero_volume ? `Vol. ${pub.numero_volume}` : null,
+                pub.anno,
+                pub.numero_pagine_circa ? `${pub.numero_pagine_circa} pagine` : null,
+              ]
                 .filter(Boolean)
                 .join(' · ')}
             </p>
+
+            {/* Prezzi */}
+            {(pub.prezzo_cartaceo || pub.prezzo_ebook) && (
+              <div className="flex gap-4 mb-6">
+                {pub.disponibile_cartaceo && pub.prezzo_cartaceo && (
+                  <div>
+                    <div className="text-[10px] font-mono tracking-widest mb-0.5" style={{ color: '#9A9488' }}>CARTACEO</div>
+                    <div className="serif text-xl font-medium" style={{ color: COL.ink }}>€ {Number(pub.prezzo_cartaceo).toFixed(2)}</div>
+                  </div>
+                )}
+                {pub.disponibile_ebook && pub.prezzo_ebook && (
+                  <div>
+                    <div className="text-[10px] font-mono tracking-widest mb-0.5" style={{ color: '#9A9488' }}>eBOOK</div>
+                    <div className="serif text-xl font-medium" style={{ color: COL.ink }}>€ {Number(pub.prezzo_ebook).toFixed(2)}</div>
+                  </div>
+                )}
+              </div>
+            )}
 
             {pub.descrizione && (
               <p className="text-[15px] leading-relaxed mb-4" style={{ color: '#3A3632' }}>
