@@ -1,69 +1,136 @@
-import Image from "next/image";
+import { ArrowRight, ChevronRight, ShieldCheck, Feather, Sparkles } from 'lucide-react';
+import Link from 'next/link';
+import SealBadge from '@/components/SealBadge';
+import EmbossedTexture from '@/components/EmbossedTexture';
+import VolumeCard from '@/components/VolumeCard';
+import TrustBar from '@/components/TrustBar';
+import { getPublications, getStats } from '@/lib/db';
+import { COL } from '@/lib/col';
 
-export default function Home() {
+export const revalidate = 3600;
+
+const WHY_ITEMS = [
+  [
+    ShieldCheck,
+    'Verificato',
+    'Ogni riferimento normativo controllato su fonte ufficiale prima della pubblicazione, con data di aggiornamento dichiarata.',
+  ],
+  [
+    Feather,
+    'Scritto da chi pratica',
+    'Non un riassunto di legge, ma il metodo di lavoro reale di uno studio legale, spiegato passo per passo.',
+  ],
+  [
+    Sparkles,
+    'Aggiornato',
+    'I volumi su materie in evoluzione normativa segnalano esplicitamente cosa verificare per gli aggiornamenti futuri.',
+  ],
+] as const;
+
+export default async function HomePage() {
+  const [publications, stats] = await Promise.all([getPublications(), getStats()]);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div>
+      {/* HERO */}
+      <section className="relative overflow-hidden">
+        <EmbossedTexture />
+        <div
+          className="absolute -top-24 -right-24 w-[420px] h-[420px] rounded-full pointer-events-none"
+          style={{ background: 'radial-gradient(circle, rgba(201,168,76,0.10) 0%, transparent 70%)' }}
+          aria-hidden="true"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+        <div className="relative max-w-6xl mx-auto px-5 sm:px-8 pt-14 sm:pt-20 pb-16 sm:pb-24">
+          <div className="grid md:grid-cols-[1fr_auto] gap-10 md:gap-16 items-center">
+            <div>
+              <div
+                className="flex items-center gap-2 text-[11px] font-mono tracking-widest mb-6"
+                style={{ color: COL.gold }}
+              >
+                <span className="inline-block w-6 h-px" style={{ backgroundColor: COL.gold }} aria-hidden="true" />
+                CUOMO LEGAL PLATFORM — COLLANA EDITORIALE
+              </div>
+              <h1
+                className="serif text-[2.1rem] leading-[1.15] sm:text-[3.1rem] sm:leading-[1.1] max-w-2xl"
+                style={{ color: COL.warm }}
+              >
+                Manuali giuridici scritti per essere usati, non solo letti.
+              </h1>
+              <p className="mt-6 text-base sm:text-lg max-w-xl leading-relaxed" style={{ color: '#B7BEC9' }}>
+                Volumi pratici su previdenza, nuove tecnologie e diritto del lavoro, scritti da un avvocato
+                cassazionista — disponibili in cartaceo e eBook, pubblicati e spediti da Amazon.
+              </p>
+              <div className="mt-9 flex flex-wrap items-center gap-4">
+                <Link
+                  href="#catalogo"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-sm font-medium transition-transform hover:-translate-y-0.5"
+                  style={{ backgroundColor: COL.gold, color: COL.navy }}
+                >
+                  Sfoglia i volumi <ArrowRight size={16} />
+                </Link>
+                <Link
+                  href="/autore"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium"
+                  style={{ color: COL.warm }}
+                >
+                  Chi è l&apos;autore <ChevronRight size={15} />
+                </Link>
+              </div>
+              <p className="mt-8 text-xs font-mono tracking-wide" style={{ color: '#6B7280' }}>
+                Avv. Giuseppe Cuomo — Patrocinante in Cassazione — Studio Legale Cuomo Giuseppe
+              </p>
+            </div>
+            <div className="justify-self-center md:justify-self-end">
+              <SealBadge />
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* TRUST BAR */}
+      <TrustBar stats={stats} />
+
+      {/* PERCHÉ QUESTA COLLANA */}
+      <section id="collane" className="py-20 sm:py-28" style={{ backgroundColor: COL.paper, color: COL.ink }}>
+        <div className="max-w-6xl mx-auto px-5 sm:px-8">
+          <h2 className="serif text-2xl sm:text-4xl max-w-2xl leading-tight mb-14">
+            Ogni volume nasce da casi reali, non da una sintesi di normative.
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-10">
+            {WHY_ITEMS.map(([Icon, title, desc]) => (
+              <div key={title}>
+                <Icon size={22} color={COL.goldDark} strokeWidth={1.5} />
+                <h3 className="serif text-xl mt-3 mb-2">{title}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#57534E' }}>
+                  {desc}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* CATALOGO */}
+      <section id="catalogo" className="py-20 sm:py-28">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8">
+          <div className="flex items-end justify-between flex-wrap gap-4 mb-10">
+            <h2 className="serif text-2xl sm:text-3xl" style={{ color: COL.warm }}>
+              I volumi
+            </h2>
+          </div>
+          {publications.length === 0 ? (
+            <p className="text-sm" style={{ color: '#8A93A3' }}>
+              Nessun volume disponibile al momento.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {publications.map((v) => (
+                <VolumeCard key={v.id} v={v} />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
     </div>
   );
 }
