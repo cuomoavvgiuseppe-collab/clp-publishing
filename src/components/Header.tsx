@@ -42,6 +42,8 @@ export default function Header() {
           <Link href="/#catalogo" className="hover:text-white transition-colors">Volumi</Link>
           <Link href="/#collane" className="hover:text-white transition-colors">Collane</Link>
           <Link href="/autore" className="hover:text-white transition-colors">L&apos;autore</Link>
+          {/* REVIEW: consulenza preventiva — non ancora validato da Avv. Cuomo */}
+          <Link href="/consulenza" className="hover:text-white transition-colors" style={{ color: COL.gold, opacity: 0.85 }}>Consulenza preventiva</Link>
         </nav>
         <Link
           href="/#catalogo"
