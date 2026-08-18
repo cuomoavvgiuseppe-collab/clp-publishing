@@ -36,7 +36,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-baseline gap-2">
           <span className="serif text-lg tracking-tight" style={{ color: COL.warm }}>CLP</span>
-          <span className="text-[11px] font-mono tracking-widest" style={{ color: COL.gold }}>PUBLISHING</span>
+          <span className="text-[11px] font-mono tracking-widest" style={{ color: COL.gold }}>CUOMO LEGAL PUBLISHING</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm" style={{ color: '#B7BEC9' }}>
           <Link href="/#catalogo" className="hover:text-white transition-colors">Volumi</Link>

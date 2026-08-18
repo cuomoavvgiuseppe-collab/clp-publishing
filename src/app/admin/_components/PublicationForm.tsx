@@ -203,6 +203,7 @@ export default function PublicationForm({
             <option value="Previdenza Sociale">Previdenza Sociale</option>
             <option value="Diritto delle Nuove Tecnologie">Diritto delle Nuove Tecnologie</option>
             <option value="CLP Compliance Toolkit">CLP Compliance Toolkit</option>
+            <option value="Diritto di Famiglia">Diritto di Famiglia</option>
           </select>
         </div>
         <div>

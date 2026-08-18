@@ -7,7 +7,7 @@ import { CONSULENZA_LIBRI } from '@/lib/consulenza-libri-content'
 import { COL } from '@/lib/col'
 
 export const metadata: Metadata = {
-  title: 'Consulenza preventiva — CLP Publishing',
+  title: 'Consulenza preventiva — CLP Cuomo Legal Publishing',
   description:
     'Parere scritto su domande preliminari AI Act, GDPR e compliance digitale. Prima che la situazione richieda una decisione urgente.',
 }

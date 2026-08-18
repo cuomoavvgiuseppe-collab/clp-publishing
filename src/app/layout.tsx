@@ -6,13 +6,13 @@ import { COL } from '@/lib/col';
 
 export const metadata: Metadata = {
   title: {
-    default: 'CLP Publishing — Manuali giuridici pratici',
-    template: '%s | CLP Publishing',
+    default: 'CLP Cuomo Legal Publishing — Manuali giuridici pratici',
+    template: '%s | CLP Cuomo Legal Publishing',
   },
   description:
     'Volumi pratici su previdenza, nuove tecnologie e diritto del lavoro, scritti da Avv. Giuseppe Cuomo, patrocinante in Cassazione. Disponibili su Amazon in cartaceo e eBook.',
   openGraph: {
-    siteName: 'CLP Publishing',
+    siteName: 'CLP Cuomo Legal Publishing',
     locale: 'it_IT',
   },
 };

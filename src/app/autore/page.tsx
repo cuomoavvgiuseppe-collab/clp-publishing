@@ -17,7 +17,7 @@ const HIGHLIGHTS = [
   [
     BookOpen,
     'Autore della collana CLP',
-    "Fondatore di Cuomo Legal Platform e della collana editoriale CLP Publishing — manuali pratici nati dall'esperienza di studio.",
+    "Fondatore di Cuomo Legal Platform e della collana editoriale CLP Cuomo Legal Publishing — manuali pratici nati dall'esperienza di studio.",
   ],
   [
     ShieldCheck,
@@ -44,7 +44,7 @@ export default function AutorePage() {
           <p className="text-base sm:text-lg max-w-2xl leading-relaxed" style={{ color: '#B7BEC9' }}>
             Avvocato patrocinante in Cassazione, con studio a Nocera Inferiore (SA). Fondatore di{' '}
             <span style={{ color: COL.warm }}>Cuomo Legal Platform</span> e della collana editoriale{' '}
-            <span style={{ color: COL.warm }}>CLP Publishing</span>.
+            <span style={{ color: COL.warm }}>CLP Cuomo Legal Publishing</span>.
           </p>
           <p className="mt-4 text-base max-w-2xl leading-relaxed" style={{ color: '#B7BEC9' }}>
             I volumi della collana nascono direttamente dall&apos;esperienza di studio: non sintesi di
