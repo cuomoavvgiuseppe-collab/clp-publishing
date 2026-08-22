@@ -18,7 +18,7 @@ const WHY_ITEMS = [
   [
     Feather,
     'Scritto da chi pratica',
-    'Non un riassunto di legge, ma il metodo di lavoro reale di uno studio legale, spiegato passo per passo.',
+    'Normativa aggiornata alle fonti ufficiali, integrata con l\'esperienza diretta dell\'autore: modelli operativi, checklist e riferimenti pratici per chi deve applicarla, non solo studiarla.',
   ],
   [
     Sparkles,
