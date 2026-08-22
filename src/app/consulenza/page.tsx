@@ -30,7 +30,7 @@ export default async function ConsulenzaHubPage() {
           <h1 className="serif" style={{ fontSize: 'clamp(1.8rem, 5vw, 2.8rem)', fontWeight: 500, color: COL.warm, lineHeight: 1.2, maxWidth: '20ch', marginBottom: '24px' }}>
             Prima di decidere, vale sempre la pena chiedere.
           </h1>
-          <p style={{ fontSize: '1rem', color: '#A8ADBE', lineHeight: 1.75, maxWidth: '54ch', marginBottom: '36px' }}>
+          <p style={{ fontSize: '1rem', color: '#A8ADBE', lineHeight: 1.75, maxWidth: '54ch', marginBottom: '36px', textAlign: 'justify' }}>
             Poni la tua domanda per iscritto su AI Act, GDPR o compliance digitale.
             Ricevi un preventivo entro 24 ore, poi — se lo ritieni utile — un parere
             scritto personale dell&apos;Avv. Cuomo. Nessun impegno prima del preventivo.
@@ -115,7 +115,7 @@ export default async function ConsulenzaHubPage() {
             <p className="serif" style={{ fontSize: '1.3rem', fontWeight: 500, color: COL.warm, marginBottom: '10px' }}>
               Avv. Giuseppe Cuomo <span style={{ color: COL.gold, fontStyle: 'italic', fontWeight: 400 }}>— Cassazionista</span>
             </p>
-            <p style={{ fontSize: '0.9rem', color: '#A8ADBE', lineHeight: 1.7, maxWidth: '52ch' }}>
+            <p style={{ fontSize: '0.9rem', color: '#A8ADBE', lineHeight: 1.7, maxWidth: '52ch', textAlign: 'justify' }}>
               Iscritto all&apos;Ordine degli Avvocati di Salerno, autore della collana CLP Compliance Toolkit.
               Il parere è scritto, personale, non generato da AI.
             </p>
