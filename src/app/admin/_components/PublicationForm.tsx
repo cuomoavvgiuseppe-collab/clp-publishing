@@ -203,6 +203,9 @@ export default function PublicationForm({
             <option value="Previdenza Sociale">Previdenza Sociale</option>
             <option value="Diritto delle Nuove Tecnologie">Diritto delle Nuove Tecnologie</option>
             <option value="CLP Compliance Toolkit">CLP Compliance Toolkit</option>
+            <option value="Diritto di Famiglia">Diritto di Famiglia</option>
+            <option value="Cuomo Legal Platform — Collana Diritto di Famiglia">Cuomo Legal Platform — Collana Diritto di Famiglia</option>
+            <option value="Diritto del Lavoro e della Previdenza Sociale">Diritto del Lavoro e della Previdenza Sociale</option>
           </select>
         </div>
         <div>

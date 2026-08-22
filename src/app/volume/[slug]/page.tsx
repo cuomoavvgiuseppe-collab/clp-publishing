@@ -127,14 +127,42 @@ export default async function VolumePage({
             )}
 
             {pub.descrizione && (
-              <p className="text-[15px] leading-relaxed mb-4" style={{ color: '#3A3632' }}>
-                {pub.descrizione}
-              </p>
+              <div className="mb-4 text-[15px] leading-relaxed" style={{ color: '#3A3632' }}>
+                {pub.descrizione.split('\n\n').map((block, i) => {
+                  const lines = block.split('\n');
+                  if (lines.some(l => l.startsWith('- '))) {
+                    return (
+                      <ul key={i} className="list-disc list-outside pl-5 mb-4 space-y-1">
+                        {lines.filter(l => l.startsWith('- ')).map((l, j) => (
+                          <li key={j} className="text-justify">{l.slice(2)}</li>
+                        ))}
+                      </ul>
+                    );
+                  }
+                  return (
+                    <p key={i} className="mb-4 text-justify">{block}</p>
+                  );
+                })}
+              </div>
             )}
             {pub.descrizione_estesa && (
-              <p className="text-[14px] leading-relaxed mb-6" style={{ color: '#57534E' }}>
-                {pub.descrizione_estesa}
-              </p>
+              <div className="mb-6 text-[14px] leading-relaxed" style={{ color: '#57534E' }}>
+                {pub.descrizione_estesa.split('\n\n').map((block, i) => {
+                  const lines = block.split('\n');
+                  if (lines.some(l => l.startsWith('- '))) {
+                    return (
+                      <ul key={i} className="list-disc list-outside pl-5 mb-4 space-y-1">
+                        {lines.filter(l => l.startsWith('- ')).map((l, j) => (
+                          <li key={j} className="text-justify">{l.slice(2)}</li>
+                        ))}
+                      </ul>
+                    );
+                  }
+                  return (
+                    <p key={i} className="mb-4 text-justify">{block}</p>
+                  );
+                })}
+              </div>
             )}
 
             {/* Amazon buttons */}

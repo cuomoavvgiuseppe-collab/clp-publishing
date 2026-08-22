@@ -1,4 +1,4 @@
-export type Collana = 'Previdenza Sociale' | 'Diritto delle Nuove Tecnologie' | 'CLP Compliance Toolkit';
+export type Collana = 'Previdenza Sociale' | 'Diritto delle Nuove Tecnologie' | 'CLP Compliance Toolkit' | 'Diritto di Famiglia' | 'Cuomo Legal Platform — Collana Diritto di Famiglia' | 'Diritto del Lavoro e della Previdenza Sociale';
 export type Stato = 'bozza' | 'pubblicato';
 
 export interface Publication {

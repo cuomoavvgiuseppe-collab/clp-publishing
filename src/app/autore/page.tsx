@@ -12,12 +12,12 @@ const HIGHLIGHTS = [
   [
     Scale,
     'Patrocinante in Cassazione',
-    'Abilitato al patrocinio davanti alla Corte di Cassazione e alle Giurisdizioni Superiori.',
+    'Abilitato al patrocinio davanti alla Corte di Cassazione e alle Magistrature Superiori.',
   ],
   [
     BookOpen,
     'Autore della collana CLP',
-    "Fondatore di Cuomo Legal Platform e della collana editoriale CLP Publishing — manuali pratici nati dall'esperienza di studio.",
+    'Fondatore di Cuomo Legal Platform che racchiude CLP Cuomo Legal Publishing, CLP Prompt Pack Store, CLP Cuomo Legal Consulenza Preventiva e CAP Cuomo Application Platform.',
   ],
   [
     ShieldCheck,
@@ -41,15 +41,13 @@ export default function AutorePage() {
           >
             Avv. Giuseppe Cuomo
           </h1>
-          <p className="text-base sm:text-lg max-w-2xl leading-relaxed" style={{ color: '#B7BEC9' }}>
+          <p className="text-base sm:text-lg max-w-2xl leading-relaxed text-justify" style={{ color: '#B7BEC9' }}>
             Avvocato patrocinante in Cassazione, con studio a Nocera Inferiore (SA). Fondatore di{' '}
-            <span style={{ color: COL.warm }}>Cuomo Legal Platform</span> e della collana editoriale{' '}
-            <span style={{ color: COL.warm }}>CLP Publishing</span>.
-          </p>
-          <p className="mt-4 text-base max-w-2xl leading-relaxed" style={{ color: '#B7BEC9' }}>
-            I volumi della collana nascono direttamente dall&apos;esperienza di studio: non sintesi di
-            normativa, ma il metodo di lavoro reale — verificato su casi concreti, scritto per essere
-            usato, non solo letto.
+            <span style={{ color: COL.warm }}>Cuomo Legal Platform</span> che racchiude{' '}
+            <span style={{ color: COL.warm }}>CLP Cuomo Legal Publishing</span>,{' '}
+            <span style={{ color: COL.warm }}>CLP Prompt Pack Store</span>,{' '}
+            <span style={{ color: COL.warm }}>CLP Cuomo Legal Consulenza Preventiva</span> e{' '}
+            <span style={{ color: COL.warm }}>CAP Cuomo Application Platform</span>.
           </p>
         </div>
       </section>
@@ -62,7 +60,7 @@ export default function AutorePage() {
               <div key={title}>
                 <Icon size={22} color={COL.goldDark} strokeWidth={1.5} />
                 <h2 className="serif text-lg mt-3 mb-2">{title}</h2>
-                <p className="text-sm leading-relaxed" style={{ color: '#57534E' }}>
+                <p className="text-sm leading-relaxed text-justify" style={{ color: '#57534E' }}>
                   {desc}
                 </p>
               </div>

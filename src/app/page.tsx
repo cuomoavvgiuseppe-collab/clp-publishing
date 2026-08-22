@@ -56,7 +56,7 @@ export default async function HomePage() {
               >
                 Manuali giuridici scritti per essere usati, non solo letti.
               </h1>
-              <p className="mt-6 text-base sm:text-lg max-w-xl leading-relaxed" style={{ color: '#B7BEC9' }}>
+              <p className="mt-6 text-base sm:text-lg max-w-xl leading-relaxed text-justify" style={{ color: '#B7BEC9' }}>
                 Volumi pratici su previdenza, nuove tecnologie e diritto del lavoro, scritti da un avvocato
                 cassazionista — disponibili in cartaceo e eBook, pubblicati e spediti da Amazon.
               </p>
@@ -101,7 +101,7 @@ export default async function HomePage() {
               <div key={title}>
                 <Icon size={22} color={COL.goldDark} strokeWidth={1.5} />
                 <h3 className="serif text-xl mt-3 mb-2">{title}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: '#57534E' }}>
+                <p className="text-sm leading-relaxed text-justify" style={{ color: '#57534E' }}>
                   {desc}
                 </p>
               </div>

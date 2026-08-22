@@ -11,7 +11,7 @@ export default function Footer() {
         style={{ color: '#6B7280' }}
       >
         <span className="serif text-sm" style={{ color: COL.warm }}>
-          CLP Publishing — Cuomo Legal Platform
+          CLP Cuomo Legal Publishing — Cuomo Legal Platform
         </span>
         <span>Studio Legale Cuomo Giuseppe · Nocera Inferiore (SA)</span>
       </div>
