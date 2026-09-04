@@ -1,0 +1,338 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "CuomoLegal Consulenza Preventiva" [ref=f4e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f4e5]: CuomoLegal
+        - generic [ref=f4e6]: Consulenza Preventiva
+      - navigation [ref=f4e7]:
+        - link "Chi sono" [ref=f4e8] [cursor=pointer]:
+          - /url: /chi-sono
+        - link "Esempio" [ref=f4e9] [cursor=pointer]:
+          - /url: /esempio-parere
+        - link "Percorsi AI" [ref=f4e10] [cursor=pointer]:
+          - /url: /ai-act-compliance
+        - link "Invia la domanda" [ref=f4e11] [cursor=pointer]:
+          - /url: "#richiedi"
+  - generic:
+    - navigation:
+      - link "Chi sono":
+        - /url: /chi-sono
+      - link "Esempio":
+        - /url: /esempio-parere
+      - link "Percorsi AI":
+        - /url: /ai-act-compliance
+      - link "Invia la domanda →":
+        - /url: "#richiedi"
+    - paragraph: Avv. Giuseppe Cuomo — Patrocinante in Cassazione
+  - main [ref=f4e12]:
+    - generic [ref=f4e14]:
+      - paragraph [ref=f4e15]: CLP — Percorsi di Conformità AI
+      - heading "Art. 50 AI Act. In vigore. Il 2 dicembre 2026 il regime transitorio si chiude." [level=1] [ref=f4e17]
+      - paragraph [ref=f4e18]: Se la tua organizzazione usa chatbot, genera contenuti con AI o impiega sistemi di riconoscimento emotivo o biometrico, gli obblighi di trasparenza dell'Art. 50 ti riguardano già. Il percorso di conformità è un servizio professionale — guide, template e slides elaborati personalmente dall'Avv. Cuomo — per portare la tua organizzazione in regola prima delle ispezioni.
+      - generic [ref=f4e19]:
+        - link "Richiedi un preventivo →" [ref=f4e20] [cursor=pointer]:
+          - /url: "#richiedi-percorso"
+        - link "Cosa include →" [ref=f4e21] [cursor=pointer]:
+          - /url: "#percorso"
+    - generic [ref=f4e23]:
+      - paragraph [ref=f4e24]: Il quadro normativo
+      - heading "Quattro obblighi. Due categorie di soggetti. Una scadenza." [level=2] [ref=f4e26]
+      - generic [ref=f4e27]:
+        - paragraph [ref=f4e28]:
+          - text: L'Art. 50 del Regolamento AI (UE) 2024/1689 introduce obblighi di trasparenza per i sistemi che interagiscono con persone fisiche, generano contenuti sintetici, riconoscono emozioni o producono deepfake. Si applica ai
+          - strong [ref=f4e29]: Provider
+          - text: — chi sviluppa o immette sul mercato un sistema AI — e ai
+          - strong [ref=f4e30]: Deployer
+          - text: — chi lo usa in un contesto professionale o commerciale.
+        - paragraph [ref=f4e31]: "La distinzione non è formale. Chi acquista un chatbot commerciale e lo integra nel proprio sito è un Deployer, anche senza aver scritto una riga di codice. Ha obblighi propri: informare gli utenti che stanno interagendo con un sistema AI, raccogliere i consensi previsti, conservare i log di disclosure. Le sanzioni arrivano fino a 15 milioni di euro o al 3% del fatturato globale annuo."
+        - paragraph [ref=f4e32]: Le Guidelines della Commissione Europea di luglio 2026 hanno chiarito i punti aperti sul testo del Regolamento. Il regime transitorio si chiude il 2 dicembre 2026.
+      - generic [ref=f4e33]:
+        - generic [ref=f4e34]:
+          - paragraph [ref=f4e35]: Art. 50(1)
+          - paragraph [ref=f4e36]: Interazione diretta
+          - paragraph [ref=f4e37]: "Chatbot, assistenti vocali, avatar AI: l'utente deve sapere che non sta interagendo con un essere umano."
+        - generic [ref=f4e38]:
+          - paragraph [ref=f4e39]: Art. 50(2)
+          - paragraph [ref=f4e40]: Contenuti sintetici
+          - paragraph [ref=f4e41]: "Immagini, audio, video e testo generati da AI: obbligo di marcatura e rilevabilità. Watermark, metadati, standard C2PA."
+        - generic [ref=f4e42]:
+          - paragraph [ref=f4e43]: Art. 50(3)
+          - paragraph [ref=f4e44]: Emotion & Biometrico
+          - paragraph [ref=f4e45]: "Sistemi che inferiscono stati emotivi o categorizzano biometricamente: informativa obbligatoria, coordinamento con GDPR."
+        - generic [ref=f4e46]:
+          - paragraph [ref=f4e47]: Art. 50(4)
+          - paragraph [ref=f4e48]: Deepfake e interesse pubblico
+          - paragraph [ref=f4e49]: "Contenuti che ritraggono persone o eventi reali in modo non autentico: labeling esplicito, eccezioni circoscritte."
+    - generic [ref=f4e51]:
+      - paragraph [ref=f4e52]: Il percorso
+      - heading "Un servizio professionale. Non una guida PDF scaricabile." [level=2] [ref=f4e53]
+      - paragraph [ref=f4e54]: "Il Percorso di Conformità AI Act Art. 50 è un insieme di materiali elaborato personalmente dall'Avv. Cuomo sulla base del Regolamento vigente, delle Guidelines della Commissione di luglio 2026 e del contesto specifico dell'organizzazione richiedente. Non è un prodotto preconfezionato: è il risultato di un incarico professionale con preventivo, accettazione e consegna diretta."
+      - generic [ref=f4e55]:
+        - generic [ref=f4e56]:
+          - generic [ref=f4e57]: "01"
+          - generic [ref=f4e58]:
+            - generic [ref=f4e59]:
+              - paragraph [ref=f4e60]: Modulo Master
+              - generic [ref=f4e61]: 65–80 pagine
+            - paragraph [ref=f4e62]: "Quadro normativo completo: timeline aggiornata (incluso Digital Omnibus), distinzione Provider vs Deployer con criteri delle Guidelines, sintesi dei 4 obblighi, Art. 50(5), sanzioni e autorità di vigilanza, rapporto con GDPR e AI literacy (Art. 4), Quick Start Checklist 30 giorni."
+        - generic [ref=f4e63]:
+          - generic [ref=f4e64]: "02"
+          - generic [ref=f4e65]:
+            - generic [ref=f4e66]:
+              - paragraph [ref=f4e67]: 4 Guide Core
+              - generic [ref=f4e68]: 155–205 pagine totali
+            - paragraph [ref=f4e69]: "Una guida per ciascun obbligo: Interazione diretta (40–55 pp), Marcatura contenuti sintetici (45–60 pp), Emotion Recognition & Biometrico (30–40 pp), Deepfake e testi di interesse pubblico (40–50 pp). Ogni guida include analisi normativa, interpretazione Guidelines, criteri operativi, esempi di wording, checklist, matrice di rischio, template di disclosure, piano di remediation, 1–2 case study settoriali."
+        - generic [ref=f4e70]:
+          - generic [ref=f4e71]: "03"
+          - generic [ref=f4e72]:
+            - generic [ref=f4e73]:
+              - paragraph [ref=f4e74]: Toolkit — 12+ template
+              - generic [ref=f4e75]: Editabili e commentati
+            - paragraph [ref=f4e76]: Inventario AI aziendale, matrice di classificazione Provider/Deployer, Policy di Trasparenza AI (documento completo), clausole contrattuali per fornitori AI, template di disclosure in formato testo/audio/visual, procedure di audit interno e monitoraggio, piano di formazione interna con registro di completamento, Risk Assessment & Remediation Plan, log di disclosure e proof of compliance, Quick Start Checklist 30 giorni, checklist di conformità per ciascun obbligo, modello di attestato di completamento corso.
+        - generic [ref=f4e77]:
+          - generic [ref=f4e78]: "04"
+          - generic [ref=f4e79]:
+            - generic [ref=f4e80]:
+              - paragraph [ref=f4e81]: Guide Verticali per ruolo
+              - generic [ref=f4e82]: 6–7 guide da 25–40 pp ciascuna
+            - paragraph [ref=f4e83]: "Legal & Compliance / DPO, CTO / AI Engineering / IT Security, Marketing / Comunicazione / Content, Customer Experience / Sales / Support, HR & People Operations, Top Management / Board / Risk Committee, con approfondimento speciale per PMI. Ogni guida risponde a una sola domanda: cosa deve fare concretamente questa figura da domani."
+        - generic [ref=f4e84]:
+          - generic [ref=f4e85]: "05"
+          - generic [ref=f4e86]:
+            - generic [ref=f4e87]:
+              - paragraph [ref=f4e88]: Slides per presentazioni interne
+              - generic [ref=f4e89]: Pronte per l'uso
+            - paragraph [ref=f4e90]: Presentazione professionale per briefing al board, sessioni di formazione del team o comunicazioni ai dipendenti. Progettate per essere usate senza adattamenti nelle presentazioni interne. Copre i punti chiave dell'Art. 50, gli obblighi per ruolo e il piano d'azione.
+    - generic [ref=f4e92]:
+      - paragraph [ref=f4e93]: Tre livelli di approfondimento
+      - heading "Scegli il perimetro. Prepariamo il materiale." [level=2] [ref=f4e94]
+      - generic [ref=f4e95]:
+        - generic [ref=f4e96]:
+          - paragraph [ref=f4e97]: Orientamento
+          - paragraph [ref=f4e98]: da €1.800
+          - paragraph [ref=f4e99]: IVA esclusa
+          - paragraph [ref=f4e100]: Per chi vuole capire se e come gli obblighi si applicano alla propria organizzazione
+          - list [ref=f4e101]:
+            - listitem [ref=f4e102]:
+              - generic [ref=f4e103]: –
+              - text: Modulo Master (65–80 pp)
+            - listitem [ref=f4e104]:
+              - generic [ref=f4e105]: –
+              - text: Glossario tecnico-giuridico
+            - listitem [ref=f4e106]:
+              - generic [ref=f4e107]: –
+              - text: Quick Start Checklist 30 giorni
+          - paragraph [ref=f4e108]: "Consegna: 5–7 gg lavorativi · PDF + Word + MD"
+          - link "Richiedi il preventivo →" [ref=f4e109] [cursor=pointer]:
+            - /url: "#richiedi-percorso"
+        - generic [ref=f4e110]:
+          - paragraph [ref=f4e111]: Conformità
+          - paragraph [ref=f4e112]: da €3.200
+          - paragraph [ref=f4e113]: IVA esclusa
+          - paragraph [ref=f4e114]: Per chi deve documentare la conformità e avere gli strumenti operativi
+          - list [ref=f4e115]:
+            - listitem [ref=f4e116]:
+              - generic [ref=f4e117]: –
+              - text: Modulo Master
+            - listitem [ref=f4e118]:
+              - generic [ref=f4e119]: –
+              - text: 4 Guide Core
+            - listitem [ref=f4e120]:
+              - generic [ref=f4e121]: –
+              - text: Toolkit completo (12+ template editabili)
+            - listitem [ref=f4e122]:
+              - generic [ref=f4e123]: –
+              - text: Checklist per ogni obbligo
+            - listitem [ref=f4e124]:
+              - generic [ref=f4e125]: –
+              - text: Guida Pratica PMI
+          - paragraph [ref=f4e126]: "Consegna: 8–12 gg lavorativi · PDF + Word + MD"
+          - link "Richiedi il preventivo →" [ref=f4e127] [cursor=pointer]:
+            - /url: "#richiedi-percorso"
+        - generic [ref=f4e128]:
+          - paragraph [ref=f4e129]: Governance
+          - paragraph [ref=f4e130]: da €5.500
+          - paragraph [ref=f4e131]: IVA esclusa
+          - paragraph [ref=f4e132]: Per chi deve formare il team e strutturare la governance interna
+          - list [ref=f4e133]:
+            - listitem [ref=f4e134]:
+              - generic [ref=f4e135]: –
+              - text: Modulo Master + 4 Guide Core + Toolkit
+            - listitem [ref=f4e136]:
+              - generic [ref=f4e137]: –
+              - text: Guide Verticali per 6–7 ruoli
+            - listitem [ref=f4e138]:
+              - generic [ref=f4e139]: –
+              - text: 6+ case study anonimizzati
+            - listitem [ref=f4e140]:
+              - generic [ref=f4e141]: –
+              - text: Slides per presentazioni interne
+            - listitem [ref=f4e142]:
+              - generic [ref=f4e143]: –
+              - text: Piano di aggiornamento 12 mesi
+          - paragraph [ref=f4e144]: "Consegna: 12–18 gg lavorativi · PDF + Word + MD"
+          - link "Richiedi il preventivo →" [ref=f4e145] [cursor=pointer]:
+            - /url: "#richiedi-percorso"
+      - paragraph [ref=f4e146]: I prezzi indicati sono punti di partenza. Il compenso definitivo è determinato in relazione al settore e alla complessità specifica dell'organizzazione, ai sensi dell'art. 13 L. 247/2012. Il preventivo scritto con l'importo esatto arriva entro 24 ore lavorative dall'invio della richiesta. Nessun impegno prima dell'accettazione.
+    - generic [ref=f4e148]:
+      - paragraph [ref=f4e149]: Come funziona
+      - heading "Tre passaggi. Nessuna piattaforma di pagamento." [level=2] [ref=f4e150]
+      - generic [ref=f4e151]:
+        - generic [ref=f4e152]:
+          - generic [ref=f4e153]: "01"
+          - generic [ref=f4e154]:
+            - paragraph [ref=f4e155]: Richiesta
+            - paragraph [ref=f4e156]: "Compilate il modulo con i dati dell'organizzazione, il ruolo e il livello di interesse. Se non avete ancora le idee chiare, basta descrivere brevemente il contesto: i sistemi AI usati, i contenuti generati, la dimensione del team."
+        - generic [ref=f4e157]:
+          - generic [ref=f4e158]: "02"
+          - generic [ref=f4e159]:
+            - paragraph [ref=f4e160]: Preventivo scritto
+            - paragraph [ref=f4e161]: "Entro 24 ore lavorative ricevete un preventivo scritto con l'importo esatto e l'elenco preciso dei materiali inclusi. Il preventivo è vincolante: nessun costo aggiuntivo dopo l'accettazione."
+        - generic [ref=f4e162]:
+          - generic [ref=f4e163]: "03"
+          - generic [ref=f4e164]:
+            - paragraph [ref=f4e165]: Consegna
+            - paragraph [ref=f4e166]: Dopo l'accettazione e il pagamento tramite bonifico bancario, l'Avv. Cuomo elabora e consegna i materiali — guide, template e slides — via email o cartella condivisa protetta. Nessun accesso automatico a piattaforme esterne.
+    - generic [ref=f4e168]:
+      - paragraph [ref=f4e169]: A chi si rivolge
+      - heading "Se una di queste situazioni vi riguarda, l'Art. 50 vi riguarda." [level=2] [ref=f4e170]
+      - generic [ref=f4e171]:
+        - paragraph [ref=f4e173]: Avete un chatbot sul sito, in app o integrato nel CRM.
+        - paragraph [ref=f4e175]: Generate immagini, testi o video con strumenti di AI generativa per comunicazione, marketing o prodotto.
+        - paragraph [ref=f4e177]: Usate strumenti che analizzano il tono emotivo dei clienti o categorizzano le persone in base a caratteristiche biometriche.
+        - paragraph [ref=f4e179]: Producete contenuti che ritraggono persone o eventi reali — anche per scopi creativi o satirici.
+        - paragraph [ref=f4e181]: Acquistate o rivendete servizi AI di terzi che ricadono in una delle categorie precedenti.
+        - paragraph [ref=f4e183]: Avete dipendenti che usano strumenti AI nei loro flussi di lavoro quotidiani senza una policy interna che li orienti.
+    - generic [ref=f4e185]:
+      - paragraph [ref=f4e186]: Chi elabora il percorso
+      - heading "Avv. Giuseppe Cuomo, patrocinante in Cassazione." [level=2] [ref=f4e187]
+      - generic [ref=f4e188]:
+        - paragraph [ref=f4e189]:
+          - text: Avvocato iscritto all'Ordine di Nocera Inferiore, patrocinante in Cassazione e dinanzi alle Giurisdizioni Superiori. Ha sviluppato il metodo
+          - strong [ref=f4e190]: Loop Engineering™
+          - text: per l'integrazione degli strumenti AI nei flussi di lavoro professionali, ed è autore di guide operative su AI Act e GDPR destinate a scuole, datori di lavoro e professionisti regolamentati.
+        - paragraph [ref=f4e191]: "Il percorso di conformità AI Act Art. 50 non è prodotto da un team anonimo: è elaborato personalmente dall'Avv. Cuomo sulla base delle fonti primarie — testo del Regolamento, Guidelines della Commissione di luglio 2026, Code of Practice — e calibrato sul contesto specifico di ogni organizzazione richiedente."
+        - paragraph [ref=f4e192]: Ogni affermazione giuridica nei materiali ha fonte primaria citata. I template sono testati su scenari reali. Le guide verticali traducono gli obblighi nelle attività quotidiane di ciascun ruolo — non in principi generali che ogni destinatario deve poi declinare da solo.
+    - generic [ref=f4e194]:
+      - paragraph [ref=f4e195]: Domande frequenti
+      - heading "Quello che ci chiedono prima di decidere." [level=2] [ref=f4e196]
+      - generic [ref=f4e197]:
+        - generic [ref=f4e198]:
+          - paragraph [ref=f4e199]: Siamo una PMI. L'Art. 50 si applica anche a noi?
+          - paragraph [ref=f4e200]: "Sì. L'Art. 50 non ha soglie dimensionali: si applica a qualsiasi organizzazione che usa o mette sul mercato sistemi AI che rientrano nelle quattro categorie. Una PMI con un chatbot sul sito è un Deployer con obblighi concreti. Il livello Orientamento è pensato esattamente per capire cosa vi riguarda e cosa potete rimandare."
+        - generic [ref=f4e201]:
+          - paragraph [ref=f4e202]: Il nostro fornitore di chatbot non ci ha detto nulla. Sono loro i responsabili, no?
+          - paragraph [ref=f4e203]: Parzialmente. Il Provider ha obblighi propri — tra cui informare il Deployer degli obblighi residui. Ma il Deployer risponde in autonomia di fronte alle autorità di vigilanza per la corretta applicazione degli obblighi sul proprio sito o servizio. Se il fornitore non vi ha fornito documentazione adeguata, questo è già un segnale da gestire — il percorso include una clausola contrattuale tipo da inserire nei contratti con i fornitori AI.
+        - generic [ref=f4e204]:
+          - paragraph [ref=f4e205]: Possiamo aspettare che arrivi una guidance più chiara prima di muoverci?
+          - paragraph [ref=f4e206]: "Le Guidelines della Commissione di luglio 2026 sono già disponibili e costituiscono la fonte interpretativa ufficiale. Il regime transitorio scade il 2 dicembre 2026: dopo quella data gli obblighi sono pienamente esecutivi. Chi inizia a strutturare la conformità ora ha il tempo di farlo con ordine; chi aspetta rischia di farlo sotto pressione — o dopo la prima ispezione."
+        - generic [ref=f4e207]:
+          - paragraph [ref=f4e208]: Cosa succede concretamente se non siamo conformi?
+          - paragraph [ref=f4e209]: Le autorità di vigilanza nazionali (in Italia, l'Agenzia per la Cybersicurezza Nazionale e il Garante Privacy in coordinamento con la Commissione) possono avviare procedimenti che portano a sanzioni fino a 15 milioni di euro o al 3% del fatturato mondiale annuo, a seconda della gravità. Le violazioni dell'Art. 50 rientrano nella fascia intermedia del sistema sanzionatorio.
+        - generic [ref=f4e210]:
+          - paragraph [ref=f4e211]: Come riceviamo i materiali una volta accettato il preventivo?
+          - paragraph [ref=f4e212]: "Tramite email o cartella condivisa protetta, entro i tempi indicati nel preventivo. Non ci sono piattaforme di accesso esterne, abbonamenti o credenziali da gestire. I file sono editabili e commentati: possono essere adattati con il vostro brand e la vostra intestazione senza richiedere ulteriori elaborazioni."
+    - generic [ref=f4e214]:
+      - paragraph [ref=f4e215]: Richiedi il percorso
+      - heading "Preventivo scritto entro 24 ore lavorative." [level=2] [ref=f4e216]
+      - paragraph [ref=f4e217]: "Non è necessario aver già scelto il livello. Se il contesto è incerto, descrivete brevemente la situazione: i sistemi AI che usate, i contenuti che generate, il settore. Riceverete una proposta calibrata."
+      - generic [ref=f4e219]:
+        - generic [ref=f4e220]:
+          - generic [ref=f4e221]: Nome e cognome *
+          - textbox "Nome e cognome *" [ref=f4e222]:
+            - /placeholder: Mario Rossi
+        - generic [ref=f4e223]:
+          - generic [ref=f4e224]: Indirizzo e-mail *
+          - textbox "Indirizzo e-mail *" [ref=f4e225]:
+            - /placeholder: mario.rossi@azienda.it
+        - generic [ref=f4e226]:
+          - generic [ref=f4e227]: Azienda / Studio professionale *
+          - textbox "Azienda / Studio professionale *" [ref=f4e228]:
+            - /placeholder: Nome dell'organizzazione
+        - generic [ref=f4e229]:
+          - generic [ref=f4e230]: Ruolo *
+          - combobox "Ruolo *" [ref=f4e231] [cursor=pointer]:
+            - option "— Seleziona —" [selected]
+            - option "Legal & Compliance / DPO"
+            - option "CTO / AI Engineering / IT Security"
+            - option "Marketing / Comunicazione / Content"
+            - option "Customer Experience / Sales / Support"
+            - option "HR / People Operations"
+            - option "Top Management / Board / Risk Committee"
+            - option "Titolare / PMI"
+            - option "Altro"
+        - generic [ref=f4e232]:
+          - generic [ref=f4e233]: Livello di interesse
+          - combobox "Livello di interesse" [ref=f4e234] [cursor=pointer]:
+            - option "— Non ho ancora deciso —" [selected]
+            - option "Orientamento — Modulo Master + Quick Start 30 giorni"
+            - option "Conformità — Modulo Master + 4 Guide Core + Toolkit"
+            - option "Governance — Suite completa + Guide Verticali + Slides"
+        - generic [ref=f4e235]:
+          - generic [ref=f4e236]: Contesto (opzionale)
+          - paragraph [ref=f4e237]: Settore, dimensione dell'organizzazione, scadenze particolari o domande specifiche sull'Art. 50.
+          - textbox "Contesto (opzionale)" [ref=f4e238]:
+            - /placeholder: Es. Azienda e-commerce, 80 dipendenti, usiamo un chatbot AI sul sito e generiamo contenuti con AI generativa. Dobbiamo capire quali obblighi ci riguardano prima del 2 dicembre 2026.
+        - generic [ref=f4e240] [cursor=pointer]:
+          - checkbox "Ho letto l'informativa sulla privacy e accetto che i dati inseriti siano usati per rispondere a questa richiesta di preventivo. So che il percorso è un servizio professionale elaborato personalmente dall'Avv. Cuomo e che nessun pagamento è dovuto prima dell'accettazione del preventivo scritto. *" [ref=f4e241]
+          - generic [ref=f4e242]: Ho letto l'informativa sulla privacy e accetto che i dati inseriti siano usati per rispondere a questa richiesta di preventivo. So che il percorso è un servizio professionale elaborato personalmente dall'Avv. Cuomo e che nessun pagamento è dovuto prima dell'accettazione del preventivo scritto. *
+        - button "Richiedi il preventivo" [ref=f4e243] [cursor=pointer]
+        - paragraph [ref=f4e244]: Il compenso è determinato in relazione al livello scelto, al settore e alla complessità specifica dell'organizzazione, ai sensi dell'art. 13 L. 247/2012. Il preventivo scritto con l'importo esatto arriverà entro 24 ore lavorative. Nessun impegno prima dell'accettazione.
+  - dialog "Cookie banner" [ref=f4e245]:
+    - generic [ref=f4e246]:
+      - paragraph [ref=f4e247]:
+        - text: Questo sito utilizza solo
+        - strong [ref=f4e248]: cookie tecnici necessari
+        - text: al funzionamento. Nessun cookie di profilazione o tracciamento.
+        - link "Cookie Policy" [ref=f4e249] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: —
+        - link "Privacy Policy" [ref=f4e250] [cursor=pointer]:
+          - /url: /privacy
+      - generic [ref=f4e251]:
+        - button "Solo necessari" [ref=f4e252] [cursor=pointer]
+        - button "Accetto" [ref=f4e253] [cursor=pointer]
+  - contentinfo [ref=f4e254]:
+    - generic [ref=f4e255]:
+      - generic [ref=f4e256]:
+        - generic [ref=f4e257]:
+          - paragraph [ref=f4e258]: CLP Consulenza Preventiva
+          - paragraph [ref=f4e259]: Consulenza preventiva scritta sul metodo AI per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA e altre libere professioni.
+        - generic [ref=f4e260]:
+          - paragraph [ref=f4e261]: Navigazione
+          - navigation [ref=f4e262]:
+            - link "Chi sono" [ref=f4e263] [cursor=pointer]:
+              - /url: /chi-sono
+            - link "Esempio di parere" [ref=f4e264] [cursor=pointer]:
+              - /url: /esempio-parere
+            - link "Percorsi di conformità AI" [ref=f4e265] [cursor=pointer]:
+              - /url: /ai-act-compliance
+            - link "Materie" [ref=f4e266] [cursor=pointer]:
+              - /url: /materie
+            - link "Professioni" [ref=f4e267] [cursor=pointer]:
+              - /url: /professioni
+        - generic [ref=f4e268]:
+          - paragraph [ref=f4e269]: Contatti
+          - paragraph [ref=f4e270]:
+            - text: "Tel: +39 081 921 1148"
+            - link "info@studiolegalecuomogiuseppe.it" [ref=f4e271] [cursor=pointer]:
+              - /url: mailto:info@studiolegalecuomogiuseppe.it
+            - text: "PEC: g.cuomo@avvocatinocera-pec.it"
+      - separator [ref=f4e272]
+      - paragraph [ref=f4e273]:
+        - strong [ref=f4e274]: Avv. Giuseppe Cuomo
+        - text: — Via G. Matteotti, 14 — 84014 Nocera Inferiore (SA) · P.IVA 03619420650 · Ordine Avvocati Nocera Inferiore n. 2016000093 · Patrocinante in Cassazione e dinanzi alle Giurisdizioni Superiori ·
+        - link "www.studiolegalecuomogiuseppe.it" [ref=f4e275] [cursor=pointer]:
+          - /url: https://www.studiolegalecuomogiuseppe.it
+      - generic [ref=f4e276]:
+        - link "Termini e Condizioni" [ref=f4e277] [cursor=pointer]:
+          - /url: /termini
+        - link "Privacy Policy" [ref=f4e278] [cursor=pointer]:
+          - /url: /privacy
+        - link "Cookie Policy" [ref=f4e279] [cursor=pointer]:
+          - /url: /cookie-policy
+        - link "Diritto di Recesso" [ref=f4e280] [cursor=pointer]:
+          - /url: /recesso
+        - generic [ref=f4e281]: © 2026 CLP — Cuomo Legal Platform
+  - alert [ref=f4e282]

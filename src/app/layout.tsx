@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import { COL } from '@/lib/col';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://publishing.studiolegalecuomogiuseppe.it'),
   title: {
     default: 'CLP Cuomo Legal Publishing — Manuali giuridici pratici',
     template: '%s | CLP Cuomo Legal Publishing',

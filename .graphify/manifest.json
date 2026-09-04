@@ -1,0 +1,166 @@
+{
+  "C:/Users/cuomo/Desktop/clp-publishing/eslint.config.mjs": {
+    "mtime": 1786224145818.6572,
+    "hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/next.config.ts": {
+    "mtime": 1786224316922.9175,
+    "hash": "3e903efcf5954f3e71a624834c0ce7a0"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/postcss.config.mjs": {
+    "mtime": 1786224145855.3694,
+    "hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/_components/PublicationForm.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "2892232b73bee8605ad37d1508f6abbf"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/layout.tsx": {
+    "mtime": 1786224997689.2986,
+    "hash": "5522c7f1f169ddfab0f35e24e281c563"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/login/page.tsx": {
+    "mtime": 1786224986605.6562,
+    "hash": "c95c4e0dc7d0b6a8e0d3375c1bb146eb"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/page.tsx": {
+    "mtime": 1786225313761.7515,
+    "hash": "e713236da590e7aa7e395bde4a31cc16"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/volume/[id]/edit/page.tsx": {
+    "mtime": 1786225322605.4019,
+    "hash": "dd1abe9e3aef1997b7e8aaf988ac2e59"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/admin/volume/new/page.tsx": {
+    "mtime": 1786225319715.1396,
+    "hash": "dd24e4db2f36f257793b493233950652"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/api/admin/login/route.ts": {
+    "mtime": 1786224981909.9224,
+    "hash": "9fef6372d5d55d51f3247004d2708853"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/api/admin/logout/route.ts": {
+    "mtime": 1786224984297.5369,
+    "hash": "e3e920414d420a92ee1850e3a8948254"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/api/admin/publications/[id]/route.ts": {
+    "mtime": 1786225028920.6157,
+    "hash": "8d306eee08575c0aa22dc9e03da82056"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/api/admin/publications/route.ts": {
+    "mtime": 1786225025814.8867,
+    "hash": "d1623e60d03b51fc61fec5ebe3c6a2a8"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/autore/page.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "cc15a5da2c2d01c88e4af6ea6c6b50b3"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/collane/page.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "5aa1fdaa6780b426471f7ade2699b6e6"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/layout.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "05e09dd03563226686fcbff71ca186e6"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/page.tsx": {
+    "mtime": 1787432949058.9004,
+    "hash": "657b027821f8a5dc800eec14a1c9dd29"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/app/volume/[slug]/page.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "57661148e947ae0d0a0c35461dbfb09f"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/EmbossedTexture.tsx": {
+    "mtime": 1786224700729.9783,
+    "hash": "d1ffc7ecc7c25f7b890aec0afd6eba36"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/Footer.tsx": {
+    "mtime": 1787417905054.803,
+    "hash": "2a10662892de9441f2393a0fbcc36910"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/Header.tsx": {
+    "mtime": 1787417931961.8757,
+    "hash": "737bc53c54a1408e024335b377559ae6"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/SealBadge.tsx": {
+    "mtime": 1786224696954.177,
+    "hash": "3040359b6481602d5efb7f2bec5b110f"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/TrustBar.tsx": {
+    "mtime": 1786224742848.9414,
+    "hash": "d12a5a1ca13ef2ec25ecd734030a2e1b"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/components/VolumeCard.tsx": {
+    "mtime": 1786224712304.214,
+    "hash": "db9d954f9da14c168a6ee2c8bf6cfbef"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/col.ts": {
+    "mtime": 1786224277499.1992,
+    "hash": "e31884a5747d1aa8d81f6460daf79f68"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/db.ts": {
+    "mtime": 1786224642202.1338,
+    "hash": "8571a05f870eef7e039bedb44d12c2bb"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/rateLimit.ts": {
+    "mtime": 1786224645549.364,
+    "hash": "9cc541b98cc50e89e42d35b2522fed99"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/supabase/admin.ts": {
+    "mtime": 1786224610548.844,
+    "hash": "22b023e5a43e08e07d736aa162e82c10"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/supabase/client.ts": {
+    "mtime": 1786224604707.112,
+    "hash": "6bbb2d912a7fc8d115ca54fc81759b4b"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/lib/supabase/server.ts": {
+    "mtime": 1786224607705.7202,
+    "hash": "2af1f1b588c9c22fa59266062d037e11"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/proxy.ts": {
+    "mtime": 1786224963853.046,
+    "hash": "af4bf4a4428d18470db77c5a22fabd3f"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/src/types.ts": {
+    "mtime": 1787417905054.803,
+    "hash": "d86bb362eea62e18da6234ed9656ce12"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/supabase/migrations/20260808_clp_publishing_initial.sql": {
+    "mtime": 1786225728969.8596,
+    "hash": "324a0f01fe2b5dfd3a131e90066bb946"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/AGENTS.md": {
+    "mtime": 1786224229722.1638,
+    "hash": "01e8142356e15c3404e0d84c48187cd0"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/CLAUDE.md": {
+    "mtime": 1786224229723.1665,
+    "hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/README.md": {
+    "mtime": 1786224145785.909,
+    "hash": "f15aaa42d5d299d091b1171097ea56ad"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/public/file.svg": {
+    "mtime": 1786224145865.8323,
+    "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/public/globe.svg": {
+    "mtime": 1786224145882.722,
+    "hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/public/next.svg": {
+    "mtime": 1786224145901.7847,
+    "hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/public/vercel.svg": {
+    "mtime": 1786224145918.2693,
+    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "C:/Users/cuomo/Desktop/clp-publishing/public/window.svg": {
+    "mtime": 1786224145930.708,
+    "hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}

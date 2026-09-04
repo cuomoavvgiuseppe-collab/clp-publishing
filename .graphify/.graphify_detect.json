@@ -1,0 +1,85 @@
+{
+  "files": {
+    "code": [
+      "eslint.config.mjs",
+      "next.config.ts",
+      "postcss.config.mjs",
+      "src/app/admin/_components/PublicationForm.tsx",
+      "src/app/admin/layout.tsx",
+      "src/app/admin/login/page.tsx",
+      "src/app/admin/page.tsx",
+      "src/app/admin/volume/[id]/edit/page.tsx",
+      "src/app/admin/volume/new/page.tsx",
+      "src/app/api/admin/login/route.ts",
+      "src/app/api/admin/logout/route.ts",
+      "src/app/api/admin/publications/[id]/route.ts",
+      "src/app/api/admin/publications/route.ts",
+      "src/app/autore/page.tsx",
+      "src/app/collane/page.tsx",
+      "src/app/layout.tsx",
+      "src/app/page.tsx",
+      "src/app/volume/[slug]/page.tsx",
+      "src/components/EmbossedTexture.tsx",
+      "src/components/Footer.tsx",
+      "src/components/Header.tsx",
+      "src/components/SealBadge.tsx",
+      "src/components/TrustBar.tsx",
+      "src/components/VolumeCard.tsx",
+      "src/lib/col.ts",
+      "src/lib/db.ts",
+      "src/lib/rateLimit.ts",
+      "src/lib/supabase/admin.ts",
+      "src/lib/supabase/client.ts",
+      "src/lib/supabase/server.ts",
+      "src/proxy.ts",
+      "src/types.ts",
+      "supabase/migrations/20260808_clp_publishing_initial.sql"
+    ],
+    "document": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md"
+    ],
+    "paper": [],
+    "image": [
+      "public/file.svg",
+      "public/globe.svg",
+      "public/next.svg",
+      "public/vercel.svg",
+      "public/window.svg"
+    ],
+    "video": []
+  },
+  "total_files": 41,
+  "total_words": 6915,
+  "needs_graph": false,
+  "warning": "Corpus is ~6915 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 23,
+  "git": {
+    "source_owner": "git",
+    "source_hash": "0d7293ea5ecfe1aad39e3a984e554de552650f76",
+    "branches": [
+      "master",
+      "staging/consulenza-preventiva"
+    ],
+    "max_commits": 200,
+    "active_within_days": 30
+  },
+  "scope": {
+    "requested_mode": "auto",
+    "resolved_mode": "committed",
+    "source": "default-auto",
+    "root": ".",
+    "git_root": ".",
+    "head": "0d7293ea5ecfe1aad39e3a984e554de552650f76",
+    "candidate_count": 47,
+    "included_count": 41,
+    "excluded_untracked_count": 42,
+    "excluded_ignored_count": 26570,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
+  }
+}

@@ -1,0 +1,472 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "CuomoLegalConsulenza" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Chi sono" [ref=e7] [cursor=pointer]:
+          - /url: /chi-sono
+        - link "Esempio" [ref=e8] [cursor=pointer]:
+          - /url: /esempio-parere
+        - link "Percorsi AI" [ref=e9] [cursor=pointer]:
+          - /url: /ai-act-compliance
+        - link "Invia la domanda" [ref=e10] [cursor=pointer]:
+          - /url: "#richiedi"
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: CLP Cuomo Legal Consulenza Preventiva
+      - heading "Scrivere un prompt sbagliato costa più di scriverlo bene la prima volta." [level=1] [ref=e15]
+      - paragraph [ref=e16]: Una consulenza preventiva è un parere scritto — non un incontro, non una chiamata — con cui verifichi il tuo approccio prima di usarlo su un caso vero. Prima di scrivere il prompt che finirà nel tuo flusso di lavoro quotidiano, verifica con chi ha validato il metodo.
+      - generic [ref=e17]:
+        - link "Scegli la tua materia →" [ref=e18] [cursor=pointer]:
+          - /url: /materie
+        - link "Cos'è la consulenza preventiva ↓" [ref=e19] [cursor=pointer]:
+          - /url: "#cose"
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: Cos'è
+      - heading "La consulenza preventiva scritta, in breve" [level=2] [ref=e23]
+      - generic [ref=e24]:
+        - paragraph [ref=e25]:
+          - text: Una consulenza preventiva è un parere scritto su una domanda
+          - strong [ref=e26]: generale
+          - text: ", posta prima di usare un metodo — non l'analisi di un caso concreto già in corso. Chiedi come strutturare un prompt anti-allucinazione per la tua materia, non di scrivere il prompt sul tuo cliente specifico: quella è una consulenza personalizzata, un servizio diverso."
+        - paragraph [ref=e27]: È preventiva perché arriva prima dell'errore, non dopo. Un modello linguistico che cita un regolamento europeo abrogato, confonde due discipline affini, o omette un riferimento normativo verificabile produce un output che sembra corretto — finché qualcuno, spesso il cliente o un giudice, non lo controlla. Il momento in cui scopri il problema del metodo non dovrebbe essere quello in cui hai già un cliente in attesa.
+        - paragraph [ref=e28]: È scritta perché resta. Non un consiglio a voce che si ricostruisce a memoria, ma un parere che puoi rileggere, allegare a una nota interna del tuo studio, usare come riferimento la prossima volta che affronti la stessa materia.
+    - generic [ref=e30]:
+      - paragraph [ref=e31]: Perché
+      - heading "Cosa cambia, rispetto a procedere da soli" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: "01"
+          - heading "Il rischio si vede prima di materializzarsi" [level=3] [ref=e36]
+          - paragraph [ref=e37]: La normativa cambia con una frequenza che un modello linguistico non sempre riflette correttamente. Un parere preventivo individua dove il tuo prompt rischia di appoggiarsi su una base normativa non più vigente — prima che quel rischio finisca in un documento firmato da te.
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: "02"
+          - heading "Il metodo è validato, non improvvisato" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Il parere si fonda sullo stesso metodo di verifica a due passaggi — identificazione, poi verifica — che è già alla base dei pack di Cuomo Legal Publishing. Non un'opinione estemporanea, ma l'applicazione di un approccio testato su decine di materie.
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: "03"
+          - heading "Risposta scritta, non un consiglio informale" [level=3] [ref=e44]
+          - paragraph [ref=e45]: "Un parere scritto ha un valore diverso da uno scambio a voce: è verificabile, riutilizzabile, condivisibile con i colleghi del tuo studio."
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: "04"
+          - heading "Nessun impegno prima di sapere il costo" [level=3] [ref=e48]
+          - paragraph [ref=e49]: Poni la domanda, ricevi un preventivo scritto con il compenso. Decidi tu se procedere. Nessun pacchetto, nessun prezzo di listino, nessun acquisto necessario per fare la domanda.
+    - generic [ref=e51]:
+      - paragraph [ref=e52]: Come funziona
+      - heading "Tre passaggi, dalla domanda al parere" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: "01"
+          - heading "Scrivi la tua domanda" [level=3] [ref=e57]
+          - paragraph [ref=e58]: "Scegli la materia che ti interessa tra quelle disponibili e scrivi la tua domanda con parole tue. Non deve essere formulata in linguaggio tecnico: basta che sia chiaro cosa vuoi capire del metodo."
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: "02"
+          - heading "Ricevi il preventivo" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Entro 24 ore lavorative ricevi un preventivo scritto con il compenso per il parere, ai sensi dell'art. 13 L. 247/2012. Nessun addebito prima della tua conferma.
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: "03"
+          - heading "Ricevi il parere scritto" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Confermato il preventivo, ricevi il parere scritto personale dell'Avv. Cuomo, con i tempi indicati nel preventivo stesso.
+      - paragraph [ref=e67]: Nessun file è scaricabile dal sito. Il prompt pack e il kit di conformità, quando previsti nel preventivo, sono allegati del parere e si consegnano solo dopo l'accettazione — via PEC o email dello studio.
+    - generic [ref=e69]:
+      - paragraph [ref=e70]: Come entrare
+      - heading "Scegli per materia o per professione" [level=2] [ref=e71]
+      - paragraph [ref=e72]: "Il servizio è accessibile da due assi: puoi partire dalla materia giuridica che ti interessa, oppure dalla tua categoria professionale."
+      - generic [ref=e73]:
+        - link [ref=e74] [cursor=pointer]:
+          - /url: /materie
+          - paragraph [ref=e75]: Per materia
+          - paragraph [ref=e76]: Scegli la disciplina giuridica — tributario, amministrativo, lavoro, penale, famiglia, e molte altre.
+          - paragraph [ref=e77]: Vedi tutte le materie →
+        - link [ref=e78] [cursor=pointer]:
+          - /url: /professioni
+          - paragraph [ref=e79]: Per professione
+          - paragraph [ref=e80]: Parti dalla tua categoria — commercialista, avvocato, consulente del lavoro, ingegnere, funzionario PA.
+          - paragraph [ref=e81]: Vedi le categorie professionali →
+    - generic [ref=e83]:
+      - paragraph [ref=e84]: Come porre la domanda
+      - heading "Una domanda ben formulata produce un parere più utile" [level=2] [ref=e85]
+      - paragraph [ref=e86]: "Non esiste una domanda sbagliata, ma esiste una domanda che produce un parere più preciso. La differenza non sta nel livello tecnico — non è necessario conoscere la materia per porre la domanda giusta. Sta nella chiarezza dell'obiettivo metodologico: dire cosa si vuole capire del metodo in quella materia, non descrivere la propria situazione specifica."
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: Domanda poco utile
+          - paragraph [ref=e90]: «Vorrei sapere come usare l'AI nella mia professione.»
+          - paragraph [ref=e91]: «Come faccio a verificare una norma con l'AI?»
+          - paragraph [ref=e92]: «Quale prompt uso per la mia materia?»
+        - generic [ref=e93]:
+          - paragraph [ref=e94]: Domanda utile
+          - paragraph [ref=e95]: «Nella redazione di un DVR, come va strutturata la fase di verifica normativa perché il modello non citi disposizioni del D.Lgs. 81/2008 non più vigenti?»
+          - paragraph [ref=e96]: «In materia di dichiarazione dei redditi, quale ciclo di verifica è più adatto a intercettare aliquote o detrazioni non aggiornate?»
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - paragraph [ref=e99]: "01"
+          - heading "Indica la materia e il tipo di attività, non il caso specifico" [level=3] [ref=e100]
+          - paragraph [ref=e101]: «Come si struttura la verifica normativa in materia di appalti pubblici?» è una domanda metodologica sulla materia. «Come gestisco questa gara per il mio cliente?» è una consulenza personalizzata su un fatto determinato, un servizio diverso. Il parere preventivo risponde sempre alla prima forma, mai alla seconda.
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: "02"
+          - heading "Indica il tipo di output che vuoi ottenere" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Stai cercando di capire come strutturare un prompt? Come verificare una risposta già ottenuta? Come costruire una checklist di revisione per i collaboratori? Ogni obiettivo richiede un approccio diverso nel parere, e chiarirlo in anticipo evita risposte generiche.
+        - generic [ref=e106]:
+          - paragraph [ref=e107]: "03"
+          - heading "Indica quale aspetto metodologico ti interessa approfondire" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Il parere copre la materia nella sua interezza, ma se hai già un'idea di quale area di rischio vuoi approfondire — la verifica delle fonti normative, la struttura della fase di generazione, la checklist di revisione — indicarlo permette di dare più spazio a quel punto specifico del metodo.
+        - generic [ref=e110]:
+          - paragraph [ref=e111]: "04"
+          - heading "Non serve il linguaggio tecnico dell'ingegneria dei prompt" [level=3] [ref=e112]
+          - paragraph [ref=e113]: "Non devi sapere cosa sia un «system prompt» o un «chain-of-thought». Descrivi il problema con le parole che useresti con un collega: la traduzione nella logica tecnica del metodo è parte del lavoro del parere, non un prerequisito per richiederlo."
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - paragraph [ref=e117]: Chi risponde
+        - paragraph [ref=e118]: Un parere scritto personalmente, non un output automatico
+      - paragraph [ref=e119]: "Ogni consulenza preventiva è scritta personalmente dall'Avv. Giuseppe Cuomo, cassazionista, autore del metodo di verifica anti-allucinazione applicato a tutti i pack di Cuomo Legal Publishing. Non è un servizio automatizzato: è lo stesso lavoro che un collega farebbe rispondendo a un consiglio richiesto in studio, reso scritto e strutturato."
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: Il parere
+      - heading "Cosa contiene il parere scritto" [level=2] [ref=e123]
+      - paragraph [ref=e124]: Il parere non è un documento standardizzato né un template generico. Segue una struttura interna progettata per essere direttamente utilizzabile — non per essere archiviata come un adempimento formale. Il suo oggetto è sempre il metodo applicato alla materia indicata, non l'analisi di una situazione concreta.
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - paragraph [ref=e128]: "01"
+          - generic [ref=e129]:
+            - heading "Quadro metodologico e obblighi normativi" [level=3] [ref=e130]
+            - paragraph [ref=e131]: "La prima parte, comune a tutte le categorie, espone il quadro aggiornato al 2026: gli obblighi della Legge 132/2025 per i professionisti che utilizzano sistemi di intelligenza artificiale nell'incarico, i meccanismi di errore tipici dei modelli linguistici — allucinazione, obsolescenza non segnalata, confusione tra istituti — e le regole operative di condotta professionale. È la base che permette di valutare correttamente i limiti dello strumento prima di applicare il metodo alla propria materia."
+        - generic [ref=e132]:
+          - paragraph [ref=e134]: "02"
+          - generic [ref=e135]:
+            - heading "Rischi specifici per la categoria professionale" [level=3] [ref=e136]
+            - paragraph [ref=e137]: "Individua i punti critici documentati nell'area professionale indicata: dove il modello tende a produrre errori specifici in quella disciplina, quali fonti sono più esposte all'obsolescenza, quali istituti o adempimenti vengono più frequentemente confusi tra loro. Il numero di rischi analizzati varia per categoria: sei per i commercialisti, dieci per medici e odontoiatri. La mappa riguarda la materia, non la situazione del singolo richiedente."
+        - generic [ref=e138]:
+          - paragraph [ref=e140]: "03"
+          - generic [ref=e141]:
+            - heading "Quadro normativo di riferimento per la materia" [level=3] [ref=e142]
+            - paragraph [ref=e143]: "Per ciascuna categoria il parere elenca norma per norma le fonti che governano la pratica quotidiana — codici, decreti legislativi, principi tecnici, circolari ministeriali — e indica quali sono più a rischio di obsolescenza nei modelli linguistici correnti. Non è un riepilogo generico: ogni fonte è accompagnata dall'indicazione del rischio specifico e della banca dati su cui verificare prima della firma."
+        - generic [ref=e144]:
+          - paragraph [ref=e146]: "04"
+          - generic [ref=e147]:
+            - heading "Come applicare Loop Engineering™ alla materia specifica" [level=3] [ref=e148]
+            - paragraph [ref=e149]: "Descrive come applicare il ciclo A/B/C alla disciplina indicata: quali fonti primarie usare nella fase di verifica, in quale ordine, con quali criteri di arresto. Nella fase di convergenza il modello non auto-approva: produce una checklist di punti aperti che il professionista completa prima di utilizzare l'output. È la logica del metodo spiegata in funzione delle specificità normative e procedurali di quella materia."
+        - generic [ref=e150]:
+          - paragraph [ref=e152]: "05"
+          - generic [ref=e153]:
+            - heading "Checklist operativa di revisione professionale" [level=3] [ref=e154]
+            - paragraph [ref=e155]: "Una checklist strutturata con i criteri di controllo specifici per la materia, da usare nella fase C del ciclo prima di qualsiasi utilizzo professionale. I criteri variano per categoria: verifica normativa su Normattiva e Agenzia Entrate per i commercialisti, controllo sulla scheda tecnica AIFA per i medici, riscontro su visura catastale e ipotecaria per i notai. La checklist si usa punto per punto nel flusso di lavoro reale — non è un documento da leggere una volta e archiviare."
+        - generic [ref=e156]:
+          - paragraph [ref=e158]: "06"
+          - generic [ref=e159]:
+            - heading "Prompt pack operativo in 12 aree di attività" [level=3] [ref=e160]
+            - paragraph [ref=e161]: "Allegato al parere dove previsto, il pack contiene trentasei prompt operativi in dodici gruppi tematici — uno per ciascuna area di attività più comune della categoria. Ogni gruppo comprende tre prompt sequenziali: Fase A (Generazione) con regole anti-allucinazione incorporate, Fase B (Verifica) con ciclo normativo, fattuale e formale, Fase C (Convergenza) con produzione della checklist finale. I prompt sono completi e pronti all'uso su qualsiasi piattaforma — ChatGPT, Claude, Gemini — con la sezione [INCOLLA QUI] da completare con i dati del caso."
+    - generic [ref=e163]:
+      - paragraph [ref=e164]: Il metodo
+      - heading "Perché “anti-allucinazione” non è solo un'etichetta" [level=2] [ref=e165]
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: "Un prompt scritto male non produce un errore evidente — produce un output che sembra corretto. Il metodo alla base di ogni consulenza preventiva si fonda su un principio semplice: separare la fase in cui l'AI propone una risposta dalla fase in cui quella risposta viene verificata, invece di fidarsi del primo output."
+        - paragraph [ref=e168]:
+          - text: "In pratica, un buon prompt in questa materia non chiede “dammi la risposta” — chiede una prima bozza, poi impone un controllo strutturato su quella bozza (fonti citate, norme in vigore, coerenza tra le parti), e solo dopo produce l'output finale. Chi conosce l'ingegneria dei prompt riconoscerà in questo lo stesso principio dei sistemi “a loop” — bozza, verifica, condizione di arresto — applicato al lavoro professionale regolamentato. La consulenza preventiva non ti consegna un prompt già scritto sul tuo caso: ti aiuta a capire come applicare questo principio nella tua materia, con la logica corretta per quell'ambito specifico."
+          - strong [ref=e169]: Il parere scritto include sempre esempi illustrativi di prompt anti-allucinazione, calibrati sul metodo generale della materia
+          - text: — così puoi vedere concretamente come il principio si traduce in pratica, non solo descritto in astratto.
+      - generic [ref=e170]:
+        - paragraph [ref=e171]: Loop Engineering™
+        - heading "Il metodo si chiama Loop Engineering™ e si articola in tre fasi sequenziali e obbligatorie." [level=3] [ref=e172]
+        - paragraph [ref=e173]: "Ogni attività professionale assistita dall'AI — redazione di un documento, analisi di una norma, verifica di dati tecnici — passa attraverso tre fasi distinte. Nessuna può essere saltata: la fase successiva accetta in ingresso solo l'output della precedente."
+        - paragraph [ref=e174]: "Loop Engineering non è un'invenzione dell'Avv. Cuomo — è un principio già affermato nell'ingegneria dei prompt. Quello che l'Avv. Cuomo ha fatto è applicare questo principio al lavoro professionale regolamentato, unendo la propria formazione giuridica alle competenze acquisite nell'ingegneria dei prompt, per costruire un metodo verificabile su decine di materie tecniche, contabili, amministrative e forensi: le tre fasi che seguono."
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: "[A]"
+            - heading "Generazione" [level=4] [ref=e178]
+            - paragraph [ref=e179]: "L'AI produce il documento sulla base di istruzioni calibrate per la specifica area professionale: struttura formale, riferimenti normativi tipici della materia, vincoli di contenuto. È la prima bozza, non l'output finale."
+            - paragraph [ref=e180]: "Input: domanda professionale generale. Output: prima bozza non verificata."
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: "[B]"
+            - heading "Verifica — foglio dei controlli" [level=4] [ref=e183]
+            - paragraph [ref=e184]: "Il professionista verifica su fonti ufficiali — Normattiva, sito dell'albo, banche dati di categoria. L'AI produce il foglio dei controlli: l'elenco strutturato di cosa verificare e dove. Le fonti le apre e le controlla l'umano, non il modello. L'AI non verifica le norme: le segnala."
+            - paragraph [ref=e185]: I cicli di verifica sono separati per evitare interferenze tra tipi di errore diversi.
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: "[C]"
+            - heading "Convergenza — checklist di firma" [level=4] [ref=e188]
+            - paragraph [ref=e189]: Il professionista applica la checklist sull'output finale. Se anche un solo marcatore è aperto — [NORMA DA VERIFICARE], [DATO MANCANTE], [GIURISPRUDENZA DA VERIFICARE] — il documento non si firma. Il SÌ finale lo dà il professionista, non il modello.
+            - paragraph [ref=e190]: "Output: checklist con caselle vuote per il controllo del professionista. Loop Engineering™ non è un agente autonomo e non sostituisce il giudizio dell'iscritto all'albo."
+        - paragraph [ref=e191]: "La consulenza preventiva non ti consegna un prompt già scritto: ti aiuta a capire come applicare Loop Engineering™ nella tua materia specifica. Il parere include sempre esempi illustrativi delle tre fasi, calibrati sull'ambito professionale che hai scelto."
+    - generic [ref=e193]:
+      - paragraph [ref=e194]: Per chi è
+      - heading "Quando ha senso chiedere — e quando no" [level=2] [ref=e195]
+      - paragraph [ref=e196]: "La consulenza preventiva è pensata per un momento specifico: quando si sta valutando o costruendo un metodo di lavoro con l'AI, non quando si ha già un caso urgente davanti. Riconoscere questo confine aiuta a capire se questo servizio risponde alla domanda che si ha in testa — e se non lo fa, lo dice chiaramente."
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - paragraph [ref=e199]: Ha senso chiedere quando
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - generic [ref=e202]: →
+              - paragraph [ref=e203]: Stai valutando di integrare l'AI nel tuo flusso di lavoro e vuoi capire come farlo in modo metodologicamente corretto, prima di adottare un approccio che poi è difficile da cambiare.
+            - generic [ref=e204]:
+              - generic [ref=e205]: →
+              - paragraph [ref=e206]: Hai iniziato a usare un modello linguistico per una materia specifica e noti risultati inconsistenti — output che a volte sembrano corretti, a volte no — senza riuscire a capire dove il metodo difetta.
+            - generic [ref=e207]:
+              - generic [ref=e208]: →
+              - paragraph [ref=e209]: Stai considerando l'acquisto di un pack CLP e vuoi prima capire se il metodo si adatta alla tua specifica prassi di studio e al flusso di lavoro che hai già.
+            - generic [ref=e210]:
+              - generic [ref=e211]: →
+              - paragraph [ref=e212]: Hai bisogno di un riferimento scritto da mostrare ai colleghi del tuo studio prima di introdurre un nuovo strumento, e un parere scritto vale più di un'opinione a voce.
+            - generic [ref=e213]:
+              - generic [ref=e214]: →
+              - paragraph [ref=e215]: Lavori in un'area normativa ad alto tasso di aggiornamento — appalti pubblici, fiscalità, sicurezza sul lavoro, normativa ambientale, diritto del lavoro — e vuoi sapere dove concentrare la verifica per non affidarti a fonti già superate.
+        - generic [ref=e216]:
+          - paragraph [ref=e217]: Non è il servizio giusto quando
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]: ✕
+              - paragraph [ref=e221]: "Hai un caso concreto in corso e hai bisogno di una consulenza sulla tua specifica situazione. Quello è un servizio diverso: una consulenza personalizzata su un fatto determinato, con relativo rapporto professionale con il professionista competente."
+            - generic [ref=e222]:
+              - generic [ref=e223]: ✕
+              - paragraph [ref=e224]: Cerchi qualcuno che scriva i prompt al posto tuo. Il parere spiega la logica e mostra esempi illustrativi, ma non produce materiale pronto all'uso applicato al tuo caso specifico.
+            - generic [ref=e225]:
+              - generic [ref=e226]: ✕
+              - paragraph [ref=e227]: Hai bisogno di una risposta entro poche ore. Il processo richiede un preventivo scritto e un tempo di elaborazione del parere che non è compatibile con l'urgenza.
+            - generic [ref=e228]:
+              - generic [ref=e229]: ✕
+              - paragraph [ref=e230]: Il tuo metodo è già consolidato e funziona bene. La consulenza preventiva ha valore prima di adottare un approccio, non come validazione a posteriori di qualcosa che già produce risultati soddisfacenti.
+    - generic [ref=e232]:
+      - paragraph [ref=e233]: Domande frequenti
+      - heading "Quello che viene chiesto più spesso, con una risposta diretta" [level=2] [ref=e234]
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - paragraph [ref=e237]: Quanto costa la consulenza preventiva?
+          - paragraph [ref=e238]: "Il compenso viene indicato nel preventivo scritto che ricevi entro 24 ore lavorative dalla tua domanda, ai sensi dell'art. 13 L. 247/2012. Non esiste un prezzo fisso di listino: dipende dalla complessità della domanda e dall'ambito professionale. Porre la domanda non comporta nessun costo: il compenso si paga solo se accetti il preventivo e vuoi procedere."
+        - generic [ref=e239]:
+          - paragraph [ref=e240]: In quanto tempo ricevo il parere?
+          - paragraph [ref=e241]: Il preventivo arriva entro 24 ore lavorative dalla ricezione della domanda. I tempi di elaborazione del parere sono indicati nel preventivo stesso e variano in base al carico di lavoro corrente — di norma da 2 a 5 giorni lavorativi dalla conferma dell'accettazione. Non vengono indicati tempi che non possono essere rispettati.
+        - generic [ref=e242]:
+          - paragraph [ref=e243]: Posso fare più di una domanda per parere?
+          - paragraph [ref=e244]: "Il parere risponde a una domanda metodologica principale. Se la domanda riguarda più aspetti del metodo strettamente correlati nella stessa materia, vengono trattati nello stesso parere. Se le questioni riguardano aree professionali diverse, è preferibile richiedere pareri separati: ogni materia ha logiche di verifica specifiche che perdono precisione se mescolate."
+        - generic [ref=e245]:
+          - paragraph [ref=e246]: La consulenza si applica a qualsiasi modello linguistico?
+          - paragraph [ref=e247]: "Sì. Il metodo Loop Engineering™ è indipendente dalla piattaforma: si applica con ChatGPT, Claude, Gemini, o qualsiasi altro modello testuale attuale o futuro. Il parere descrive la logica della struttura, non le istruzioni specifiche di un'interfaccia. Gli esempi illustrativi sono adattabili senza modifica sostanziale a qualsiasi ambiente."
+        - generic [ref=e248]:
+          - paragraph [ref=e249]: Il parere è riservato?
+          - paragraph [ref=e250]: Sì. Il contenuto del parere è strettamente riservato. Non viene condiviso, pubblicato, né utilizzato in forma anonimizzata senza consenso esplicito. La domanda stessa viene trattata con la stessa riservatezza di qualsiasi comunicazione professionale.
+        - generic [ref=e251]:
+          - paragraph [ref=e252]: Posso richiedere una consulenza su una materia non presente nell'elenco?
+          - paragraph [ref=e253]: "L'elenco delle materie disponibili copre le aree più frequentemente richieste, ma non è chiuso. Se la tua area non è presente, puoi indicarla nella domanda: l'ammissibilità viene valutata caso per caso e comunicata nel preventivo, senza costi aggiuntivi per la sola valutazione."
+        - generic [ref=e254]:
+          - paragraph [ref=e255]: Il parere vale come consulenza professionale sulla mia situazione specifica?
+          - paragraph [ref=e256]: No. La consulenza preventiva ha per oggetto il metodo — come strutturare l'uso dell'AI in una specifica materia professionale. Non esamina fatti, non analizza casi concreti, non produce orientamenti su situazioni specifiche del richiedente. Chi ha bisogno di un parere su un caso determinato deve instaurare un rapporto professionale formale con il professionista competente per quella materia.
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: Il parere include i prompt già pronti?
+          - paragraph [ref=e259]: "Il parere contiene esempi illustrativi delle tre fasi del metodo, calibrati sulla materia o sulla categoria. Se per quella categoria è già stato redatto un prompt pack di studio, il preventivo indica se viene allegato al parere. In ogni caso i prompt sono bozze di lavoro: non si firmano, non si usano senza verifica sulle fonti ufficiali, e non si scaricano dal sito."
+        - generic [ref=e260]:
+          - paragraph [ref=e261]: Posso scaricare il materiale dopo aver accettato il preventivo?
+          - paragraph [ref=e262]: No. Non esiste un'area download. Dopo l'accettazione del preventivo lo studio consegna il parere — e gli eventuali allegati — con le modalità indicate nel preventivo, di norma via PEC o email.
+        - generic [ref=e263]:
+          - paragraph [ref=e264]: È un negozio online?
+          - paragraph [ref=e265]: "No. È un servizio di consulenza professionale ai sensi dell'art. 13 L. 247/2012. Il compenso viene indicato nel preventivo scritto. Porre la domanda è gratuito: nessun addebito prima dell'accettazione."
+      - generic [ref=e266]:
+        - paragraph [ref=e267]: Nota deontologica
+        - paragraph [ref=e268]: La consulenza preventiva descritta in questa pagina ha per oggetto esclusivo l'ingegneria dei prompt applicata al lavoro professionale e il metodo di verifica anti-allucinazione sviluppato dall'Avv. Cuomo. Non costituisce in alcun caso un parere su una situazione di fatto concreta, né un rapporto di assistenza o rappresentanza professionale. Le informazioni contenute nel parere hanno carattere metodologico e illustrativo, non orientano né sostituiscono il giudizio professionale del professionista che le applica. Per consulenze su casi specifici, è necessario instaurare un rapporto professionale formale con il professionista competente per quella materia.
+    - generic [ref=e270]:
+      - paragraph [ref=e271]: Consulenza su volumi CLP
+      - heading "Pareri scritti sugli argomenti dei libri" [level=2] [ref=e272]
+      - paragraph [ref=e273]: Per ciascun volume della collana CLP è disponibile una consulenza preventiva scritta sugli argomenti trattati — per chi vuole capire prima di decidere.
+      - generic [ref=e274]:
+        - 'link "Copertina: Guida alla Separazione Personale dei Coniugi Cuomo Legal Platform — Collana Diritto di Famiglia Guida alla Separazione Personale dei Coniugi Invia domanda →" [ref=e275] [cursor=pointer]':
+          - /url: /libri/guida-separazione-riforma-cartabia
+          - 'img "Copertina: Guida alla Separazione Personale dei Coniugi" [ref=e276]'
+          - generic [ref=e277]:
+            - paragraph [ref=e278]: Cuomo Legal Platform — Collana Diritto di Famiglia
+            - paragraph [ref=e279]: Guida alla Separazione Personale dei Coniugi
+          - generic [ref=e280]: Invia domanda →
+        - 'link "Copertina: AI Act & GDPR nelle Scuole 2026 Cuomo Legal Platform — CLP Compliance Toolkit AI Act & GDPR nelle Scuole 2026 Invia domanda →" [ref=e281] [cursor=pointer]':
+          - /url: /libri/ai-act-gdpr-scuole
+          - 'img "Copertina: AI Act & GDPR nelle Scuole 2026" [ref=e282]'
+          - generic [ref=e283]:
+            - paragraph [ref=e284]: Cuomo Legal Platform — CLP Compliance Toolkit
+            - paragraph [ref=e285]: AI Act & GDPR nelle Scuole 2026
+          - generic [ref=e286]: Invia domanda →
+        - 'link "Copertina: AI Act & GDPR nel Lavoro 2026 Cuomo Legal Platform — CLP Compliance Toolkit AI Act & GDPR nel Lavoro 2026 Invia domanda →" [ref=e287] [cursor=pointer]':
+          - /url: /libri/ai-act-gdpr-lavoro
+          - 'img "Copertina: AI Act & GDPR nel Lavoro 2026" [ref=e288]'
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: Cuomo Legal Platform — CLP Compliance Toolkit
+            - paragraph [ref=e291]: AI Act & GDPR nel Lavoro 2026
+          - generic [ref=e292]: Invia domanda →
+        - 'link "Copertina: AI Act & GDPR Compliance Toolkit 2026 Cuomo Legal Platform — CLP Compliance Toolkit AI Act & GDPR Compliance Toolkit 2026 Invia domanda →" [ref=e293] [cursor=pointer]':
+          - /url: /libri/ai-act-gdpr-compliance
+          - 'img "Copertina: AI Act & GDPR Compliance Toolkit 2026" [ref=e294]'
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: Cuomo Legal Platform — CLP Compliance Toolkit
+            - paragraph [ref=e297]: AI Act & GDPR Compliance Toolkit 2026
+          - generic [ref=e298]: Invia domanda →
+        - 'link "Copertina: AI Act & GDPR in Sanità 2026 Cuomo Legal Platform — CLP Compliance Toolkit AI Act & GDPR in Sanità 2026 Invia domanda →" [ref=e299] [cursor=pointer]':
+          - /url: /libri/ai-act-gdpr-sanita
+          - 'img "Copertina: AI Act & GDPR in Sanità 2026" [ref=e300]'
+          - generic [ref=e301]:
+            - paragraph [ref=e302]: Cuomo Legal Platform — CLP Compliance Toolkit
+            - paragraph [ref=e303]: AI Act & GDPR in Sanità 2026
+          - generic [ref=e304]: Invia domanda →
+        - 'link "Copertina: Formulario AI Act & GDPR 2026 Cuomo Legal Platform — CLP Compliance Toolkit Formulario AI Act & GDPR 2026 Invia domanda →" [ref=e305] [cursor=pointer]':
+          - /url: /libri/ai-act-gdpr-formulario
+          - 'img "Copertina: Formulario AI Act & GDPR 2026" [ref=e306]'
+          - generic [ref=e307]:
+            - paragraph [ref=e308]: Cuomo Legal Platform — CLP Compliance Toolkit
+            - paragraph [ref=e309]: Formulario AI Act & GDPR 2026
+          - generic [ref=e310]: Invia domanda →
+        - 'link "Copertina: Guida Integrale alla NASpI 2026 Cuomo Legal Platform — Diritto del Lavoro e della Previdenza Sociale Guida Integrale alla NASpI 2026 Invia domanda →" [ref=e311] [cursor=pointer]':
+          - /url: /libri/guida-integrale-naspi-2026
+          - 'img "Copertina: Guida Integrale alla NASpI 2026" [ref=e312]'
+          - generic [ref=e313]:
+            - paragraph [ref=e314]: Cuomo Legal Platform — Diritto del Lavoro e della Previdenza Sociale
+            - paragraph [ref=e315]: Guida Integrale alla NASpI 2026
+          - generic [ref=e316]: Invia domanda →
+    - generic [ref=e318]:
+      - paragraph [ref=e319]: I servizi
+      - 'heading "Due linee di lavoro. Stesso principio: prima, non dopo." [level=2] [ref=e320]'
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - paragraph [ref=e323]: Per professionisti
+          - paragraph [ref=e324]: Consulenza preventiva scritta sul metodo AI
+          - paragraph [ref=e325]: "Parere scritto su una domanda di metodo: come strutturare il prompt, come verificare le fonti, come firmare un atto che ha usato AI. Per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA, medici, insegnanti. Prima che il metodo sbagliato diventi un problema concreto."
+          - link "Scegli la materia →" [ref=e326] [cursor=pointer]:
+            - /url: /materie
+        - generic [ref=e327]:
+          - paragraph [ref=e328]: Per aziende e team
+          - paragraph [ref=e329]: Percorso di conformità AI Act Art. 50
+          - paragraph [ref=e330]: "Guide operative, 12+ template e slides per portare l'organizzazione in regola con gli obblighi di trasparenza dell'Art. 50 AI Act. Il regime transitorio scade il 2 dicembre 2026. Tre livelli: Orientamento, Conformità, Governance. Elaborato personalmente dall'Avv. Cuomo, consegnato su preventivo."
+          - link "Scopri il percorso →" [ref=e331] [cursor=pointer]:
+            - /url: /ai-act-compliance
+    - generic [ref=e333]:
+      - paragraph [ref=e334]: Indice
+      - heading "Trova la materia o la professione" [level=2] [ref=e335]
+      - paragraph [ref=e336]: "Apri una famiglia, oppure cerca. Le categorie professionali hanno una porta dedicata: non sono una materia giuridica."
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: Cerca
+          - searchbox "Cerca" [ref=e340]
+        - generic [ref=e341]:
+          - button "Civile, famiglia e persona Contratti, condominio, famiglia, successioni, danno alla persona. 8 ▾" [ref=e343] [cursor=pointer]:
+            - generic [ref=e344]:
+              - paragraph [ref=e345]: Civile, famiglia e persona
+              - paragraph [ref=e346]: Contratti, condominio, famiglia, successioni, danno alla persona.
+            - generic [ref=e347]:
+              - generic [ref=e348]: "8"
+              - generic [ref=e349]: ▾
+          - button "Impresa e crisi Societario, crisi d'impresa, startup. 3 ▾" [ref=e351] [cursor=pointer]:
+            - generic [ref=e352]:
+              - paragraph [ref=e353]: Impresa e crisi
+              - paragraph [ref=e354]: Societario, crisi d'impresa, startup.
+            - generic [ref=e355]:
+              - generic [ref=e356]: "3"
+              - generic [ref=e357]: ▾
+          - button "Lavoro e previdenza Rapporto di lavoro, AI Act nel lavoro, previdenza. 3 ▾" [ref=e359] [cursor=pointer]:
+            - generic [ref=e360]:
+              - paragraph [ref=e361]: Lavoro e previdenza
+              - paragraph [ref=e362]: Rapporto di lavoro, AI Act nel lavoro, previdenza.
+            - generic [ref=e363]:
+              - generic [ref=e364]: "3"
+              - generic [ref=e365]: ▾
+          - button "Tributario e dogane Imposte, accertamento, dogane. 2 ▾" [ref=e367] [cursor=pointer]:
+            - generic [ref=e368]:
+              - paragraph [ref=e369]: Tributario e dogane
+              - paragraph [ref=e370]: Imposte, accertamento, dogane.
+            - generic [ref=e371]:
+              - generic [ref=e372]: "2"
+              - generic [ref=e373]: ▾
+          - button "Penale e responsabilità Penale, sanità, responsabilità professionale. 3 ▾" [ref=e375] [cursor=pointer]:
+            - generic [ref=e376]:
+              - paragraph [ref=e377]: Penale e responsabilità
+              - paragraph [ref=e378]: Penale, sanità, responsabilità professionale.
+            - generic [ref=e379]:
+              - generic [ref=e380]: "3"
+              - generic [ref=e381]: ▾
+          - button "Pubblica amministrazione Procedimento, appalti, ambiente, immigrazione. 5 ▾" [ref=e383] [cursor=pointer]:
+            - generic [ref=e384]:
+              - paragraph [ref=e385]: Pubblica amministrazione
+              - paragraph [ref=e386]: Procedimento, appalti, ambiente, immigrazione.
+            - generic [ref=e387]:
+              - generic [ref=e388]: "5"
+              - generic [ref=e389]: ▾
+          - button "Tecnologia, privacy e settori Privacy, AI Act, proprietà intellettuale e materie settoriali. 20 ▾" [ref=e391] [cursor=pointer]:
+            - generic [ref=e392]:
+              - paragraph [ref=e393]: Tecnologia, privacy e settori
+              - paragraph [ref=e394]: Privacy, AI Act, proprietà intellettuale e materie settoriali.
+            - generic [ref=e395]:
+              - generic [ref=e396]: "20"
+              - generic [ref=e397]: ▾
+        - generic [ref=e398]:
+          - paragraph [ref=e399]: Cerchi per albo o categoria?
+          - generic [ref=e400]:
+            - generic [ref=e401]:
+              - link "Commercialisti" [ref=e402] [cursor=pointer]:
+                - /url: /commercialisti
+              - text: ·
+            - generic [ref=e403]:
+              - link "Avvocati" [ref=e404] [cursor=pointer]:
+                - /url: /avvocati
+              - text: ·
+            - generic [ref=e405]:
+              - link "Consulenti del lavoro" [ref=e406] [cursor=pointer]:
+                - /url: /consulenti-del-lavoro
+              - text: ·
+            - generic [ref=e407]:
+              - link "Ingegneri e Architetti" [ref=e408] [cursor=pointer]:
+                - /url: /ingegneri
+              - text: ·
+            - generic [ref=e409]:
+              - link "Funzionari PA" [ref=e410] [cursor=pointer]:
+                - /url: /funzionari-pa
+              - text: ·
+            - generic [ref=e411]:
+              - link "Medici e odontoiatri" [ref=e412] [cursor=pointer]:
+                - /url: /medici-odontoiatri
+              - text: ·
+            - generic [ref=e413]:
+              - link "Insegnanti e docenti" [ref=e414] [cursor=pointer]:
+                - /url: /insegnanti-docenti
+              - text: ·
+            - generic [ref=e415]:
+              - link "Notai" [ref=e416] [cursor=pointer]:
+                - /url: /notai
+              - text: ·
+            - link "Altre professioni" [ref=e418] [cursor=pointer]:
+              - /url: /altre-professioni
+          - link "Vedi tutte le categorie →" [ref=e419] [cursor=pointer]:
+            - /url: /professioni
+  - dialog "Cookie banner" [ref=e420]:
+    - generic [ref=e421]:
+      - paragraph [ref=e422]:
+        - text: Questo sito utilizza solo
+        - strong [ref=e423]: cookie tecnici necessari
+        - text: al funzionamento. Nessun cookie di profilazione o tracciamento.
+        - link "Cookie Policy" [ref=e424] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: —
+        - link "Privacy Policy" [ref=e425] [cursor=pointer]:
+          - /url: /privacy
+      - generic [ref=e426]:
+        - button "Solo necessari" [ref=e427] [cursor=pointer]
+        - button "Accetto" [ref=e428] [cursor=pointer]
+  - contentinfo [ref=e429]:
+    - generic [ref=e430]:
+      - paragraph [ref=e431]: CLP Consulenza Preventiva
+      - paragraph [ref=e432]: "Parte della CLP Cuomo Legal Platform.Consulenza preventiva scritta sul metodo AI per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA e altre libere professioni.Percorsi di conformità AI Act Art. 50 per aziende e team: guide operative, 12+ template e slides su preventivo."
+      - separator [ref=e433]
+      - paragraph [ref=e434]:
+        - strong [ref=e435]: Avv. Giuseppe Cuomo
+        - text: "— CLP Cuomo Legal PlatformVia G. Matteotti, 14 — 84014 Nocera Inferiore (SA)P.IVA 03619420650 | Ordine Avvocati Nocera Inferiore n. 2016000093Patrocinante in Cassazione e dinanzi alle Giurisdizioni SuperioriTel: +39 081 921 1148 | cuomo.avv.giuseppe@tiscali.it | info@studiolegalecuomogiuseppe.itPEC: g.cuomo@avvocatinocera-pec.itWebsite:"
+        - link "www.studiolegalecuomogiuseppe.it" [ref=e436] [cursor=pointer]:
+          - /url: https://www.studiolegalecuomogiuseppe.it
+      - generic [ref=e437]:
+        - navigation [ref=e438]:
+          - link "Chi sono" [ref=e439] [cursor=pointer]:
+            - /url: /chi-sono
+          - link "Esempio di parere" [ref=e440] [cursor=pointer]:
+            - /url: /esempio-parere
+          - link "Percorsi di conformità AI" [ref=e441] [cursor=pointer]:
+            - /url: /ai-act-compliance
+          - link "Termini e Condizioni" [ref=e442] [cursor=pointer]:
+            - /url: /termini
+          - link "Privacy Policy" [ref=e443] [cursor=pointer]:
+            - /url: /privacy
+          - link "Cookie Policy" [ref=e444] [cursor=pointer]:
+            - /url: /cookie-policy
+          - link "Diritto di Recesso" [ref=e445] [cursor=pointer]:
+            - /url: /recesso
+        - paragraph [ref=e446]: © 2026 CLP — Cuomo Legal Platform
+  - alert [ref=e447]

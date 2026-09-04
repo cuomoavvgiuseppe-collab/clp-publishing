@@ -1,0 +1,154 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "CuomoLegal Consulenza Preventiva" [ref=f2e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e5]: CuomoLegal
+        - generic [ref=f2e6]: Consulenza Preventiva
+      - navigation [ref=f2e7]:
+        - link "Chi sono" [ref=f2e8] [cursor=pointer]:
+          - /url: /chi-sono
+        - link "Esempio" [ref=f2e9] [cursor=pointer]:
+          - /url: /esempio-parere
+        - link "Percorsi AI" [ref=f2e10] [cursor=pointer]:
+          - /url: /ai-act-compliance
+        - link "Invia la domanda" [ref=f2e11] [cursor=pointer]:
+          - /url: "#richiedi"
+  - generic:
+    - navigation:
+      - link "Chi sono":
+        - /url: /chi-sono
+      - link "Esempio":
+        - /url: /esempio-parere
+      - link "Percorsi AI":
+        - /url: /ai-act-compliance
+      - link "Invia la domanda →":
+        - /url: "#richiedi"
+    - paragraph: Avv. Giuseppe Cuomo — Patrocinante in Cassazione
+  - main [ref=f2e12]:
+    - article [ref=f2e13]:
+      - generic [ref=f2e15]:
+        - paragraph [ref=f2e16]:
+          - link "Consulenza preventiva" [ref=f2e18] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f2e19]: ·
+          - text: Per professione
+        - heading "Consulenza preventiva per categoria professionale" [level=1] [ref=f2e20]
+        - paragraph [ref=f2e21]: Scegli la tua categoria professionale per vedere i rischi specifici, gli atti tipici e le domande-tipo che ricevono un parere scritto.
+        - link "Cerchi una disciplina giuridica specifica? → Indice delle materie" [ref=f2e22] [cursor=pointer]:
+          - /url: /materie
+      - generic [ref=f2e24]:
+        - paragraph [ref=f2e25]: Categorie disponibili
+        - heading "9 professioni regolamentate" [level=2] [ref=f2e27]
+        - generic [ref=f2e28]:
+          - link [ref=f2e29] [cursor=pointer]:
+            - /url: /commercialisti
+            - generic [ref=f2e30]:
+              - paragraph [ref=f2e31]: ODCEC — Ordine dei Dottori Commercialisti e degli Esperti Contabili
+              - paragraph [ref=f2e32]: Dottori commercialisti e ragionieri
+            - paragraph [ref=f2e33]: Scopri →
+          - link [ref=f2e34] [cursor=pointer]:
+            - /url: /avvocati
+            - generic [ref=f2e35]:
+              - paragraph [ref=f2e36]: Ordine degli Avvocati — Consiglio Nazionale Forense
+              - paragraph [ref=f2e37]: Avvocati
+            - paragraph [ref=f2e38]: Scopri →
+          - link [ref=f2e39] [cursor=pointer]:
+            - /url: /consulenti-del-lavoro
+            - generic [ref=f2e40]:
+              - paragraph [ref=f2e41]: Consiglio Nazionale dell'Ordine dei Consulenti del Lavoro
+              - paragraph [ref=f2e42]: Consulenti del lavoro
+            - paragraph [ref=f2e43]: Scopri →
+          - link [ref=f2e44] [cursor=pointer]:
+            - /url: /ingegneri
+            - generic [ref=f2e45]:
+              - paragraph [ref=f2e46]: CNI e CNAPPC — Consigli Nazionali di Ingegneri e Architetti Pianificatori Paesaggisti e Conservatori
+              - paragraph [ref=f2e47]: Ingegneri e Architetti
+            - paragraph [ref=f2e48]: Scopri →
+          - link [ref=f2e49] [cursor=pointer]:
+            - /url: /funzionari-pa
+            - generic [ref=f2e50]:
+              - paragraph [ref=f2e51]: Dipendenti pubblici — accesso istituzionale, non iscrizione ad albo professionale
+              - paragraph [ref=f2e52]: Funzionari e dipendenti della Pubblica Amministrazione
+            - paragraph [ref=f2e53]: Scopri →
+          - link [ref=f2e54] [cursor=pointer]:
+            - /url: /medici-odontoiatri
+            - generic [ref=f2e55]:
+              - paragraph [ref=f2e56]: OMCeO — Ordine dei Medici Chirurghi e degli Odontoiatri
+              - paragraph [ref=f2e57]: Medici e odontoiatri
+            - paragraph [ref=f2e58]: Scopri →
+          - link [ref=f2e59] [cursor=pointer]:
+            - /url: /insegnanti-docenti
+            - generic [ref=f2e60]:
+              - paragraph [ref=f2e61]: Personale docente — scuola statale, paritaria e formazione professionale
+              - paragraph [ref=f2e62]: Insegnanti e docenti
+            - paragraph [ref=f2e63]: Scopri →
+          - link [ref=f2e64] [cursor=pointer]:
+            - /url: /notai
+            - generic [ref=f2e65]:
+              - paragraph [ref=f2e66]: CNN — Consiglio Nazionale del Notariato
+              - paragraph [ref=f2e67]: Notai
+            - paragraph [ref=f2e68]: Scopri →
+          - link [ref=f2e69] [cursor=pointer]:
+            - /url: /altre-professioni
+            - generic [ref=f2e70]:
+              - paragraph [ref=f2e71]: Professioni con albo, elenco o registro professionale
+              - paragraph [ref=f2e72]: Altre professioni regolamentate
+            - paragraph [ref=f2e73]: Scopri →
+  - dialog "Cookie banner" [ref=f2e74]:
+    - generic [ref=f2e75]:
+      - paragraph [ref=f2e76]:
+        - text: Questo sito utilizza solo
+        - strong [ref=f2e77]: cookie tecnici necessari
+        - text: al funzionamento. Nessun cookie di profilazione o tracciamento.
+        - link "Cookie Policy" [ref=f2e78] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: —
+        - link "Privacy Policy" [ref=f2e79] [cursor=pointer]:
+          - /url: /privacy
+      - generic [ref=f2e80]:
+        - button "Solo necessari" [ref=f2e81] [cursor=pointer]
+        - button "Accetto" [ref=f2e82] [cursor=pointer]
+  - contentinfo [ref=f2e83]:
+    - generic [ref=f2e84]:
+      - generic [ref=f2e85]:
+        - generic [ref=f2e86]:
+          - paragraph [ref=f2e87]: CLP Consulenza Preventiva
+          - paragraph [ref=f2e88]: Consulenza preventiva scritta sul metodo AI per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA e altre libere professioni.
+        - generic [ref=f2e89]:
+          - paragraph [ref=f2e90]: Navigazione
+          - navigation [ref=f2e91]:
+            - link "Chi sono" [ref=f2e92] [cursor=pointer]:
+              - /url: /chi-sono
+            - link "Esempio di parere" [ref=f2e93] [cursor=pointer]:
+              - /url: /esempio-parere
+            - link "Percorsi di conformità AI" [ref=f2e94] [cursor=pointer]:
+              - /url: /ai-act-compliance
+            - link "Materie" [ref=f2e95] [cursor=pointer]:
+              - /url: /materie
+            - link "Professioni" [ref=f2e96] [cursor=pointer]:
+              - /url: /professioni
+        - generic [ref=f2e97]:
+          - paragraph [ref=f2e98]: Contatti
+          - paragraph [ref=f2e99]:
+            - text: "Tel: +39 081 921 1148"
+            - link "info@studiolegalecuomogiuseppe.it" [ref=f2e100] [cursor=pointer]:
+              - /url: mailto:info@studiolegalecuomogiuseppe.it
+            - text: "PEC: g.cuomo@avvocatinocera-pec.it"
+      - separator [ref=f2e101]
+      - paragraph [ref=f2e102]:
+        - strong [ref=f2e103]: Avv. Giuseppe Cuomo
+        - text: — Via G. Matteotti, 14 — 84014 Nocera Inferiore (SA) · P.IVA 03619420650 · Ordine Avvocati Nocera Inferiore n. 2016000093 · Patrocinante in Cassazione e dinanzi alle Giurisdizioni Superiori ·
+        - link "www.studiolegalecuomogiuseppe.it" [ref=f2e104] [cursor=pointer]:
+          - /url: https://www.studiolegalecuomogiuseppe.it
+      - generic [ref=f2e105]:
+        - link "Termini e Condizioni" [ref=f2e106] [cursor=pointer]:
+          - /url: /termini
+        - link "Privacy Policy" [ref=f2e107] [cursor=pointer]:
+          - /url: /privacy
+        - link "Cookie Policy" [ref=f2e108] [cursor=pointer]:
+          - /url: /cookie-policy
+        - link "Diritto di Recesso" [ref=f2e109] [cursor=pointer]:
+          - /url: /recesso
+        - generic [ref=f2e110]: © 2026 CLP — Cuomo Legal Platform
+  - alert [ref=f2e111]

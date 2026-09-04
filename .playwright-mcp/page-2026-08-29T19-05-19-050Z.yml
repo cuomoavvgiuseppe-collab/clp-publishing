@@ -1,0 +1,242 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "CuomoLegal Consulenza Preventiva" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e5]: CuomoLegal
+        - generic [ref=f1e6]: Consulenza Preventiva
+      - navigation [ref=f1e7]:
+        - link "Chi sono" [ref=f1e8] [cursor=pointer]:
+          - /url: /chi-sono
+        - link "Esempio" [ref=f1e9] [cursor=pointer]:
+          - /url: /esempio-parere
+        - link "Percorsi AI" [ref=f1e10] [cursor=pointer]:
+          - /url: /ai-act-compliance
+        - link "Invia la domanda" [ref=f1e11] [cursor=pointer]:
+          - /url: "#richiedi"
+  - generic:
+    - navigation:
+      - link "Chi sono":
+        - /url: /chi-sono
+      - link "Esempio":
+        - /url: /esempio-parere
+      - link "Percorsi AI":
+        - /url: /ai-act-compliance
+      - link "Invia la domanda →":
+        - /url: "#richiedi"
+    - paragraph: Avv. Giuseppe Cuomo — Patrocinante in Cassazione
+  - main [ref=f1e12]:
+    - article [ref=f1e13]:
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]:
+          - paragraph [ref=f1e18]: CLP Cuomo Legal Platform — Chi sono
+          - heading "Avv. Giuseppe Cuomo" [level=1] [ref=f1e20]
+          - paragraph [ref=f1e21]: Avvocato Cassazionista · Legal Technologist · AI Specialist
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]:
+              - paragraph [ref=f1e24]: 25+
+              - paragraph [ref=f1e25]: Anni di esperienza
+            - generic [ref=f1e26]:
+              - paragraph [ref=f1e27]: 1.000+
+              - paragraph [ref=f1e28]: Clienti assistiti
+            - generic [ref=f1e29]:
+              - paragraph [ref=f1e30]: 40+
+              - paragraph [ref=f1e31]: Certificazioni int.li
+            - generic [ref=f1e32]:
+              - paragraph [ref=f1e33]: "2014"
+              - paragraph [ref=f1e34]: Cassazione
+        - img "Avv. Giuseppe Cuomo" [ref=f1e36]
+      - generic [ref=f1e38]:
+        - paragraph [ref=f1e39]: Profilo
+        - heading "Avvocato, tecnologista, autore" [level=2] [ref=f1e41]
+        - generic [ref=f1e42]:
+          - paragraph [ref=f1e43]: L'Avvocato Giuseppe Cuomo ha conseguito la laurea in Giurisprudenza presso l'Università degli Studi di Salerno. Dal 1999 si dedica alla difesa dei diritti dei propri clienti, con una profonda specializzazione nel Diritto del Lavoro e della Previdenza Sociale e nel Diritto di Famiglia.
+          - paragraph [ref=f1e44]: Nel 2001 è stato insignito della Toga d'Onore dal Consiglio dell'Ordine degli Avvocati di Nocera Inferiore (SA). Dal 26 settembre 2014 è abilitato al Patrocinio davanti alla Corte di Cassazione e alle Magistrature Superiori — il massimo grado di rappresentanza legale riconosciuto dall'ordinamento italiano.
+          - paragraph [ref=f1e45]: Pioniere del Legal Tech in Italia, è tra i pochi avvocati cassazionisti italiani ad aver conseguito oltre 40 certificazioni internazionali in Advanced Prompt Engineering, AI Security e Legal Tech presso istituzioni d'élite come Vanderbilt University, University of Pennsylvania, Google, IBM e Microsoft.
+      - generic [ref=f1e47]:
+        - paragraph [ref=f1e48]: Percorso professionale
+        - heading "Tappe principali" [level=2] [ref=f1e50]
+        - generic [ref=f1e51]:
+          - generic [ref=f1e52]:
+            - paragraph [ref=f1e54]: "1999"
+            - generic [ref=f1e55]:
+              - paragraph [ref=f1e56]: Fondazione dello Studio
+              - paragraph [ref=f1e57]: Fondazione dello Studio Legale Cuomo a Nocera Inferiore. Dal primo giorno, dedizione alla difesa dei diritti dei clienti con rigore professionale e approccio umano.
+          - generic [ref=f1e58]:
+            - paragraph [ref=f1e60]: "2001"
+            - generic [ref=f1e61]:
+              - paragraph [ref=f1e62]: Toga d'Onore
+              - paragraph [ref=f1e63]: "Insignito della Toga d'Onore dal Consiglio dell'Ordine degli Avvocati di Nocera Inferiore (SA): riconoscimento dell'eccellenza professionale dimostrata nei primi anni di carriera."
+          - generic [ref=f1e64]:
+            - paragraph [ref=f1e66]: "2014"
+            - generic [ref=f1e67]:
+              - paragraph [ref=f1e68]: Patrocinio in Cassazione
+              - paragraph [ref=f1e69]: Abilitato al Patrocinio davanti alla Corte di Cassazione e alle Magistrature Superiori dal 26 settembre 2014 — il massimo grado di rappresentanza legale riconosciuto dall'ordinamento italiano.
+          - generic [ref=f1e70]:
+            - paragraph [ref=f1e72]: 2024–2026
+            - generic [ref=f1e73]:
+              - paragraph [ref=f1e74]: Legal Technologist & CLP
+              - paragraph [ref=f1e75]: "Oltre 40 certificazioni internazionali in Advanced Prompt Engineering, AI Security e Legal Tech. Creazione della CLP Cuomo Legal Platform: ecosistema di legal tech con 18 portali tematici, 50+ utility legali e 33 chatbot AI."
+      - generic [ref=f1e77]:
+        - paragraph [ref=f1e78]: Aree di pratica
+        - heading "Specializzazioni dello Studio" [level=2] [ref=f1e80]
+        - generic [ref=f1e81]:
+          - generic [ref=f1e82]:
+            - generic [ref=f1e83]: "01"
+            - generic [ref=f1e84]:
+              - paragraph [ref=f1e85]: Diritto Civile
+              - paragraph [ref=f1e86]: Contratti, recupero crediti, risarcimento danni, controversie patrimoniali.
+          - generic [ref=f1e87]:
+            - generic [ref=f1e88]: "02"
+            - generic [ref=f1e89]:
+              - paragraph [ref=f1e90]: Diritto del Lavoro e Previdenza Sociale
+              - paragraph [ref=f1e91]: Licenziamenti, mobbing, infortuni, previdenza, lavoro nero.
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]: "03"
+            - generic [ref=f1e94]:
+              - paragraph [ref=f1e95]: Diritto di Famiglia
+              - paragraph [ref=f1e96]: Separazioni, divorzi, affidamento dei figli, assegno di mantenimento.
+          - generic [ref=f1e97]:
+            - generic [ref=f1e98]: "04"
+            - generic [ref=f1e99]:
+              - paragraph [ref=f1e100]: Responsabilità Professionale Medica
+              - paragraph [ref=f1e101]: Malpractice, risarcimento danni da errore sanitario.
+      - generic [ref=f1e103]:
+        - paragraph [ref=f1e104]: Formazione avanzata
+        - heading "Oltre 40 certificazioni internazionali" [level=2] [ref=f1e106]
+        - paragraph [ref=f1e107]: In Advanced Prompt Engineering, AI Security e Legal Tech, conseguite presso istituzioni d'élite.
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e110]: Vanderbilt University
+            - paragraph [ref=f1e111]: Legal Technology
+          - generic [ref=f1e112]:
+            - paragraph [ref=f1e113]: University of Pennsylvania
+            - paragraph [ref=f1e114]: AI & Law
+          - generic [ref=f1e115]:
+            - paragraph [ref=f1e116]: Google
+            - paragraph [ref=f1e117]: AI & Machine Learning
+          - generic [ref=f1e118]:
+            - paragraph [ref=f1e119]: IBM
+            - paragraph [ref=f1e120]: Cybersecurity
+          - generic [ref=f1e121]:
+            - paragraph [ref=f1e122]: Microsoft
+            - paragraph [ref=f1e123]: Cloud & AI
+      - generic [ref=f1e125]:
+        - paragraph [ref=f1e126]: Metodo proprietario
+        - heading "Loop Engineering™" [level=2] [ref=f1e128]
+        - generic [ref=f1e129]:
+          - generic [ref=f1e130]:
+            - paragraph [ref=f1e131]: 01 — Generazione
+            - paragraph [ref=f1e132]: Il prompt viene strutturato con role, contesto, vincoli normativi e formato atteso. Il modello produce una prima risposta trattata come bozza da verificare, non come testo definitivo.
+          - generic [ref=f1e133]:
+            - paragraph [ref=f1e134]: 02 — Verifica
+            - paragraph [ref=f1e135]: La risposta viene interrogata con un prompt di controllo che chiede al modello di elencare le fonti, evidenziare le incertezze e segnalare i punti che richiedono verifica umana. Questa fase isola le allucinazioni prima che raggiungano il documento finale.
+          - generic [ref=f1e136]:
+            - paragraph [ref=f1e137]: 03 — Convergenza
+            - paragraph [ref=f1e138]: Il professionista valuta gli esiti della verifica, integra le fonti primarie e chiude il ciclo con la propria firma. L'AI ha prodotto materiale di lavoro; la responsabilità rimane integralmente in capo al professionista iscritto all'albo.
+      - generic [ref=f1e140]:
+        - paragraph [ref=f1e141]: Ecosistema
+        - heading "CLP Cuomo Legal Platform" [level=2] [ref=f1e143]
+        - paragraph [ref=f1e144]: "Ideatore e fondatore della CLP Cuomo Legal Platform — il più completo ecosistema di legal tech del Sud Italia, che unisce la tradizione cassazionista alla tecnologia d'avanguardia. La piattaforma si articola in cinque componenti:"
+        - generic [ref=f1e145]:
+          - generic [ref=f1e146]:
+            - generic [ref=f1e147]:
+              - paragraph [ref=f1e148]: CLP — Studio Legale Cuomo
+              - link "www.studiolegalecuomogiuseppe.it" [ref=f1e149] [cursor=pointer]:
+                - /url: https://www.studiolegalecuomogiuseppe.it
+            - paragraph [ref=f1e150]: 18 portali tematici, 50+ utility legali gratuite, 33 chatbot AI per l'orientamento giuridico immediato e suite software per la Pubblica Amministrazione.
+          - generic [ref=f1e151]:
+            - paragraph [ref=f1e153]: CLP Cuomo Legal Consulenza Preventiva
+            - paragraph [ref=f1e154]: Parere metodologico scritto sull'utilizzo degli strumenti AI per avvocati, commercialisti, notai, ingegneri, consulenti del lavoro, medici, insegnanti e funzionari PA.
+          - generic [ref=f1e155]:
+            - paragraph [ref=f1e157]: CLP Cuomo Legal Publishing
+            - paragraph [ref=f1e158]: Collana editoriale di guide pratiche su diritto, tecnologia e professioni regolamentate.
+          - generic [ref=f1e159]:
+            - paragraph [ref=f1e161]: CLP Cuomo Prompt Pack Store
+            - paragraph [ref=f1e162]: Pack operativi di prompt strutturati per professionisti che utilizzano strumenti AI nella pratica quotidiana.
+          - generic [ref=f1e163]:
+            - paragraph [ref=f1e165]: CAP — Cuomo Application Platform
+            - paragraph [ref=f1e166]: Piattaforma applicativa su misura per studi professionali, PA e imprese.
+      - generic [ref=f1e168]:
+        - paragraph [ref=f1e169]: Recapiti
+        - heading "Studio Legale Cuomo" [level=2] [ref=f1e171]
+        - generic [ref=f1e172]:
+          - generic [ref=f1e173]:
+            - paragraph [ref=f1e174]: Sede
+            - paragraph [ref=f1e175]: Via G. Matteotti, 14
+            - paragraph [ref=f1e176]: 84014 Nocera Inferiore (SA)
+          - generic [ref=f1e177]:
+            - paragraph [ref=f1e178]: Iscrizione
+            - paragraph [ref=f1e179]: Ordine Avvocati Nocera Inferiore n. 2016000093
+            - paragraph [ref=f1e180]: Patrocinante in Cassazione dal 26/09/2014
+            - paragraph [ref=f1e181]: Toga d'Onore 2001
+          - generic [ref=f1e182]:
+            - paragraph [ref=f1e183]: Recapiti
+            - paragraph [ref=f1e184]: "Tel: +39 081 921 1148"
+            - paragraph [ref=f1e185]: info@studiolegalecuomogiuseppe.it
+            - paragraph [ref=f1e186]: "PEC: g.cuomo@avvocatinocera-pec.it"
+          - generic [ref=f1e187]:
+            - paragraph [ref=f1e188]: P.IVA
+            - paragraph [ref=f1e189]: "03619420650"
+        - generic [ref=f1e190]:
+          - link "Richiedi il preventivo" [ref=f1e191] [cursor=pointer]:
+            - /url: /professioni
+          - link "Esempio di parere" [ref=f1e192] [cursor=pointer]:
+            - /url: /esempio-parere
+  - dialog "Cookie banner" [ref=f1e193]:
+    - generic [ref=f1e194]:
+      - paragraph [ref=f1e195]:
+        - text: Questo sito utilizza solo
+        - strong [ref=f1e196]: cookie tecnici necessari
+        - text: al funzionamento. Nessun cookie di profilazione o tracciamento.
+        - link "Cookie Policy" [ref=f1e197] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: —
+        - link "Privacy Policy" [ref=f1e198] [cursor=pointer]:
+          - /url: /privacy
+      - generic [ref=f1e199]:
+        - button "Solo necessari" [ref=f1e200] [cursor=pointer]
+        - button "Accetto" [ref=f1e201] [cursor=pointer]
+  - contentinfo [ref=f1e202]:
+    - generic [ref=f1e203]:
+      - generic [ref=f1e204]:
+        - generic [ref=f1e205]:
+          - paragraph [ref=f1e206]: CLP Consulenza Preventiva
+          - paragraph [ref=f1e207]: Consulenza preventiva scritta sul metodo AI per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA e altre libere professioni.
+        - generic [ref=f1e208]:
+          - paragraph [ref=f1e209]: Navigazione
+          - navigation [ref=f1e210]:
+            - link "Chi sono" [ref=f1e211] [cursor=pointer]:
+              - /url: /chi-sono
+            - link "Esempio di parere" [ref=f1e212] [cursor=pointer]:
+              - /url: /esempio-parere
+            - link "Percorsi di conformità AI" [ref=f1e213] [cursor=pointer]:
+              - /url: /ai-act-compliance
+            - link "Materie" [ref=f1e214] [cursor=pointer]:
+              - /url: /materie
+            - link "Professioni" [ref=f1e215] [cursor=pointer]:
+              - /url: /professioni
+        - generic [ref=f1e216]:
+          - paragraph [ref=f1e217]: Contatti
+          - paragraph [ref=f1e218]:
+            - text: "Tel: +39 081 921 1148"
+            - link "info@studiolegalecuomogiuseppe.it" [ref=f1e219] [cursor=pointer]:
+              - /url: mailto:info@studiolegalecuomogiuseppe.it
+            - text: "PEC: g.cuomo@avvocatinocera-pec.it"
+      - separator [ref=f1e220]
+      - paragraph [ref=f1e221]:
+        - strong [ref=f1e222]: Avv. Giuseppe Cuomo
+        - text: — Via G. Matteotti, 14 — 84014 Nocera Inferiore (SA) · P.IVA 03619420650 · Ordine Avvocati Nocera Inferiore n. 2016000093 · Patrocinante in Cassazione e dinanzi alle Giurisdizioni Superiori ·
+        - link "www.studiolegalecuomogiuseppe.it" [ref=f1e223] [cursor=pointer]:
+          - /url: https://www.studiolegalecuomogiuseppe.it
+      - generic [ref=f1e224]:
+        - link "Termini e Condizioni" [ref=f1e225] [cursor=pointer]:
+          - /url: /termini
+        - link "Privacy Policy" [ref=f1e226] [cursor=pointer]:
+          - /url: /privacy
+        - link "Cookie Policy" [ref=f1e227] [cursor=pointer]:
+          - /url: /cookie-policy
+        - link "Diritto di Recesso" [ref=f1e228] [cursor=pointer]:
+          - /url: /recesso
+        - generic [ref=f1e229]: © 2026 CLP — Cuomo Legal Platform
+  - alert [ref=f1e230]

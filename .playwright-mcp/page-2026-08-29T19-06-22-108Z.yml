@@ -1,0 +1,184 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "CuomoLegal Consulenza Preventiva" [ref=f3e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e5]: CuomoLegal
+        - generic [ref=f3e6]: Consulenza Preventiva
+      - navigation [ref=f3e7]:
+        - link "Chi sono" [ref=f3e8] [cursor=pointer]:
+          - /url: /chi-sono
+        - link "Esempio" [ref=f3e9] [cursor=pointer]:
+          - /url: /esempio-parere
+        - link "Percorsi AI" [ref=f3e10] [cursor=pointer]:
+          - /url: /ai-act-compliance
+        - link "Invia la domanda" [ref=f3e11] [cursor=pointer]:
+          - /url: "#richiedi"
+  - generic:
+    - navigation:
+      - link "Chi sono":
+        - /url: /chi-sono
+      - link "Esempio":
+        - /url: /esempio-parere
+      - link "Percorsi AI":
+        - /url: /ai-act-compliance
+      - link "Invia la domanda →":
+        - /url: "#richiedi"
+    - paragraph: Avv. Giuseppe Cuomo — Patrocinante in Cassazione
+  - main [ref=f3e12]:
+    - article [ref=f3e13]:
+      - generic [ref=f3e15]:
+        - paragraph [ref=f3e16]:
+          - link "Categorie professionali" [ref=f3e18] [cursor=pointer]:
+            - /url: /professioni
+          - generic [ref=f3e19]: ·
+          - text: Ordine degli Avvocati — Consiglio Nazionale Forense
+        - heading "Avvocati" [level=1] [ref=f3e20]
+        - generic [ref=f3e21]:
+          - paragraph [ref=f3e22]: "La consulenza si articola in tre parti. La Parte Prima espone il quadro metodologico generale per i professionisti forensi che integrano l'intelligenza artificiale nel proprio flusso di lavoro: gli obblighi informativi della Legge 23 settembre 2025, n. 132, i meccanismi con cui i modelli linguistici producono citazioni apparentemente fondate ma non verificabili, e i principi di costruzione del prompt che rendono sistematica la verifica prima della sottoscrizione di qualsiasi atto. La firma dell'avvocato resta il momento di responsabilità esclusiva: il parere serve a preservarne il significato."
+          - paragraph [ref=f3e23]: La Parte Seconda entra nel dettaglio della professione forense. Il tema centrale è la produzione di citazioni giurisprudenziali inesistenti — massime con numeri di RG, sezioni e anni che suonano reali ma non corrispondono ad alcuna pronuncia verificabile su banca dati ufficiale. Il parere analizza anche la commistione di disciplina processuale — civile, amministrativa, penale — in prompt generici che non specificano il rito, i limiti delle attività riservate nella redazione di atti processuali, e le tecniche per costruire prompt che ragionino per principi giuridici invece di produrre citazioni non controllate.
+          - paragraph [ref=f3e24]: "La Parte Terza fornisce le linee guida operative per la professione forense: le modalità di verifica sistematica degli output su banche dati giuridiche ufficiali, l'impostazione delle fasi di controllo a doppio passaggio per la revisione delle bozze, e il metodo Loop Engineering™ applicato alle attività più frequenti dell'avvocato. Il prompt pack dedicato alla professione forense è in fase di elaborazione e sarà reso disponibile con successivo aggiornamento del preventivo."
+      - generic [ref=f3e26]:
+        - paragraph [ref=f3e27]: Perché il rischio è alto
+        - heading "Dove l'AI sbaglia di più in questa categoria" [level=2] [ref=f3e29]
+        - generic [ref=f3e30]:
+          - paragraph [ref=f3e32]: "Sentenze inesistenti: il modello produce citazioni con numeri di RG, sezione e anno che suonano reali ma non corrispondono ad alcuna pronuncia. La verifica manuale su banche dati ufficiali è l'unico argine."
+          - paragraph [ref=f3e34]: "Normativa processuale mista: termini, riti e competenze variano per materia e rito. Un prompt generico non distingue tra rito civile, amministrativo e penale, producendo output che mescolano disposizioni di riti diversi."
+          - paragraph [ref=f3e36]: "Attività riservate: l'AI non può redigere atti in nome di un avvocato né rappresentare nessuno. Un prompt mal impostato genera testi che imitano la forma di un atto processuale firmabile."
+      - generic [ref=f3e38]:
+        - paragraph [ref=f3e39]: Domande tipiche
+        - heading "Esempi di domande che ricevono un parere" [level=2] [ref=f3e41]
+        - generic [ref=f3e42]:
+          - generic [ref=f3e43]:
+            - generic [ref=f3e44]: "01"
+            - paragraph [ref=f3e45]: “Come si struttura un prompt per l'analisi preliminare di una questione giurisprudenziale in Cassazione senza che il modello citi sentenze non verificabili su banca dati ufficiale?”
+          - generic [ref=f3e46]:
+            - generic [ref=f3e47]: "02"
+            - paragraph [ref=f3e48]: “In materia di impugnazione di un provvedimento amministrativo, come si imposta il prompt perché il modello distingua tra i motivi di ricorso al TAR e quelli del ricorso straordinario al Presidente della Repubblica?”
+          - generic [ref=f3e49]:
+            - generic [ref=f3e50]: "03"
+            - paragraph [ref=f3e51]: “Come si costruisce la fase di verifica a due passaggi per una bozza di atto processuale, in modo che il modello produca un foglio di controlli per il professionista invece di auto-approvarsi?”
+      - paragraph [ref=f3e55]:
+        - strong [ref=f3e56]: Se stai descrivendo la situazione di un cliente, un atto ricevuto, una gara, un accertamento o una lite in corso
+        - text: ", questo non è il form giusto: richiedi una consulenza personalizzata allo studio —"
+        - link "info@studiolegalecuomogiuseppe.it" [ref=f3e57] [cursor=pointer]:
+          - /url: mailto:info@studiolegalecuomogiuseppe.it
+        - text: "/ PEC: g.cuomo@avvocatinocera-pec.it"
+      - generic [ref=f3e59]:
+        - paragraph [ref=f3e60]: Invia la domanda
+        - heading "Richiedi il preventivo" [level=2] [ref=f3e62]
+        - generic [ref=f3e63]:
+          - generic [ref=f3e64]:
+            - generic [ref=f3e65]: Step 1
+            - generic [ref=f3e66]: Invia la domanda
+            - generic [ref=f3e67]: Oggi — nessun pagamento
+          - generic [ref=f3e68]:
+            - generic [ref=f3e69]: Step 2
+            - generic [ref=f3e70]: Ricevi il preventivo
+            - generic [ref=f3e71]: Scritto, entro 24 ore
+          - generic [ref=f3e72]:
+            - generic [ref=f3e73]: Step 3
+            - generic [ref=f3e74]: Accetti e paghi
+            - generic [ref=f3e75]: Solo se lo vuoi
+        - generic [ref=f3e76]:
+          - generic [ref=f3e77]:
+            - generic [ref=f3e78]: Tipo di richiesta *
+            - combobox "Tipo di richiesta *" [ref=f3e79] [cursor=pointer]:
+              - option "— Seleziona —" [selected]
+              - option "Ho una domanda generale sul metodo (in astratto, non su un caso specifico già in corso)"
+              - option "Ho una situazione specifica già in corso che richiede valutazione su documenti o atti"
+          - generic [ref=f3e80]:
+            - generic [ref=f3e81]: Nome e cognome *
+            - textbox "Nome e cognome *" [ref=f3e82]:
+              - /placeholder: Mario Rossi
+          - generic [ref=f3e83]:
+            - generic [ref=f3e84]: Indirizzo e-mail *
+            - textbox "Indirizzo e-mail *" [ref=f3e85]:
+              - /placeholder: mario.rossi@esempio.it
+          - generic [ref=f3e86]:
+            - generic [ref=f3e87]: Categoria professionale
+            - combobox "Categoria professionale" [ref=f3e88] [cursor=pointer]:
+              - option "— Seleziona (opzionale) —"
+              - option "Avvocato" [selected]
+              - option "Dottore commercialista / Ragioniere"
+              - option "Consulente del lavoro"
+              - option "Ingegnere / Architetto"
+              - option "Funzionario / Dipendente PA"
+              - option "Medico / Odontoiatra"
+              - option "Insegnante / Docente"
+              - option "Notaio"
+              - option "Altra professione regolamentata"
+          - generic [ref=f3e89]:
+            - generic [ref=f3e90]: La tua domanda *
+            - paragraph [ref=f3e91]: "Scrivi la domanda di metodo, non il caso di un cliente. Indica: (1) la materia o il tipo di atto su cui lavori, (2) cosa vuoi capire del metodo — struttura del prompt, verifica delle fonti, checklist di firma, informativa al cliente. Non inserire nomi, fascicoli, importi, atti impugnati o dati di terzi: quello è un incarico diverso."
+            - textbox "La tua domanda *" [ref=f3e92]:
+              - /placeholder: Come si struttura la verifica normativa in materia di… / Come si imposta il prompt perché il modello dichiari… / Qual è il modo corretto per chiedere all'AI di…
+            - paragraph [ref=f3e93]: Se stai descrivendo la situazione di un cliente, un atto ricevuto o una lite in corso, usa invece la voce “Ho una situazione specifica già in corso” qui sopra.
+          - paragraph [ref=f3e94]:
+            - text: "Materia:"
+            - strong [ref=f3e95]: Avvocati
+          - generic [ref=f3e97] [cursor=pointer]:
+            - checkbox "Dichiaro che questa richiesta riguarda il metodo di lavoro con l'intelligenza artificiale in via generale, e non l'esame di un caso concreto già in corso. So che un parere su un fatto determinato richiede un incarico diverso, con preventivo autonomo. *" [ref=f3e98]
+            - generic [ref=f3e99]: Dichiaro che questa richiesta riguarda il metodo di lavoro con l'intelligenza artificiale in via generale, e non l'esame di un caso concreto già in corso. So che un parere su un fatto determinato richiede un incarico diverso, con preventivo autonomo. *
+          - button "Invia la domanda" [ref=f3e100] [cursor=pointer]
+          - paragraph [ref=f3e101]: Il compenso è determinato in relazione alla complessità della domanda, alla materia e alla categoria professionale. Il preventivo scritto con l'importo esatto ti arriverà entro 24 ore lavorative, ai sensi dell'art. 13 L. 247/2012. Nessun impegno prima dell'accettazione.
+      - generic [ref=f3e103]:
+        - paragraph [ref=f3e104]: La consulenza preventiva ha per oggetto esclusivo il metodo di utilizzo degli strumenti di intelligenza artificiale nella pratica professionale — non costituisce parere su situazioni di fatto concrete, né sostituisce il giudizio professionale dell'iscritto all'albo. Per consulenze su casi specifici è necessario instaurare un rapporto professionale formale con il professionista competente per quella materia.
+        - paragraph [ref=f3e105]: Ai sensi della Legge 23 settembre 2025, n. 132 (pubblicata in G.U. n. 225 del 25 settembre 2025), il professionista che utilizza sistemi di intelligenza artificiale nello svolgimento dell'incarico è tenuto a informarne il cliente in modo chiaro e preventivo. La responsabilità professionale rimane integralmente in capo al professionista iscritto all'albo.
+  - dialog "Cookie banner" [ref=f3e106]:
+    - generic [ref=f3e107]:
+      - paragraph [ref=f3e108]:
+        - text: Questo sito utilizza solo
+        - strong [ref=f3e109]: cookie tecnici necessari
+        - text: al funzionamento. Nessun cookie di profilazione o tracciamento.
+        - link "Cookie Policy" [ref=f3e110] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: —
+        - link "Privacy Policy" [ref=f3e111] [cursor=pointer]:
+          - /url: /privacy
+      - generic [ref=f3e112]:
+        - button "Solo necessari" [ref=f3e113] [cursor=pointer]
+        - button "Accetto" [ref=f3e114] [cursor=pointer]
+  - contentinfo [ref=f3e115]:
+    - generic [ref=f3e116]:
+      - generic [ref=f3e117]:
+        - generic [ref=f3e118]:
+          - paragraph [ref=f3e119]: CLP Consulenza Preventiva
+          - paragraph [ref=f3e120]: Consulenza preventiva scritta sul metodo AI per avvocati, commercialisti, ingegneri, consulenti del lavoro, funzionari PA e altre libere professioni.
+        - generic [ref=f3e121]:
+          - paragraph [ref=f3e122]: Navigazione
+          - navigation [ref=f3e123]:
+            - link "Chi sono" [ref=f3e124] [cursor=pointer]:
+              - /url: /chi-sono
+            - link "Esempio di parere" [ref=f3e125] [cursor=pointer]:
+              - /url: /esempio-parere
+            - link "Percorsi di conformità AI" [ref=f3e126] [cursor=pointer]:
+              - /url: /ai-act-compliance
+            - link "Materie" [ref=f3e127] [cursor=pointer]:
+              - /url: /materie
+            - link "Professioni" [ref=f3e128] [cursor=pointer]:
+              - /url: /professioni
+        - generic [ref=f3e129]:
+          - paragraph [ref=f3e130]: Contatti
+          - paragraph [ref=f3e131]:
+            - text: "Tel: +39 081 921 1148"
+            - link "info@studiolegalecuomogiuseppe.it" [ref=f3e132] [cursor=pointer]:
+              - /url: mailto:info@studiolegalecuomogiuseppe.it
+            - text: "PEC: g.cuomo@avvocatinocera-pec.it"
+      - separator [ref=f3e133]
+      - paragraph [ref=f3e134]:
+        - strong [ref=f3e135]: Avv. Giuseppe Cuomo
+        - text: — Via G. Matteotti, 14 — 84014 Nocera Inferiore (SA) · P.IVA 03619420650 · Ordine Avvocati Nocera Inferiore n. 2016000093 · Patrocinante in Cassazione e dinanzi alle Giurisdizioni Superiori ·
+        - link "www.studiolegalecuomogiuseppe.it" [ref=f3e136] [cursor=pointer]:
+          - /url: https://www.studiolegalecuomogiuseppe.it
+      - generic [ref=f3e137]:
+        - link "Termini e Condizioni" [ref=f3e138] [cursor=pointer]:
+          - /url: /termini
+        - link "Privacy Policy" [ref=f3e139] [cursor=pointer]:
+          - /url: /privacy
+        - link "Cookie Policy" [ref=f3e140] [cursor=pointer]:
+          - /url: /cookie-policy
+        - link "Diritto di Recesso" [ref=f3e141] [cursor=pointer]:
+          - /url: /recesso
+        - generic [ref=f3e142]: © 2026 CLP — Cuomo Legal Platform
+  - alert [ref=f3e143]
