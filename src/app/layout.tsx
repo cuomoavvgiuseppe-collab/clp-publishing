@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     siteName: 'CLP Cuomo Legal Publishing',
     locale: 'it_IT',
   },
+  verification: {
+    google: 'xbEZOK4TrHysdeEz8hXZexsAJ_7p1roIHtsYFa-FkgQ',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
