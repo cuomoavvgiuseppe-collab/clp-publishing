@@ -1,29 +1,41 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createServerClient } from '@/lib/supabase/server';
-import { checkRateLimit } from '@/lib/rateLimit';
+
+const attempts = new Map<string, { count: number; resetAt: number }>();
+const LIMIT = 5;
+const WINDOW_MS = 15 * 60 * 1000;
 
 export async function POST(req: NextRequest) {
   const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown';
-  if (!checkRateLimit(ip)) {
-    return NextResponse.json(
-      { error: 'Troppi tentativi. Riprova tra 15 minuti.' },
-      { status: 429 }
-    );
+  const now = Date.now();
+  const entry = attempts.get(ip);
+
+  if (entry && now < entry.resetAt) {
+    if (entry.count >= LIMIT) {
+      return NextResponse.json(
+        { error: 'Troppi tentativi. Riprova tra 15 minuti.' },
+        { status: 429 }
+      );
+    }
+    entry.count++;
+  } else {
+    attempts.set(ip, { count: 1, resetAt: now + WINDOW_MS });
   }
 
-  const { email, password } = await req.json();
-  const adminEmail = process.env.ADMIN_EMAIL;
+  const { key } = await req.json().catch(() => ({}));
+  const adminKey = process.env.ADMIN_KEY;
 
-  if (!adminEmail || email !== adminEmail) {
-    return NextResponse.json({ error: 'Credenziali non valide.' }, { status: 401 });
+  if (!adminKey || !key || key !== adminKey) {
+    return NextResponse.json({ error: 'Chiave non valida.' }, { status: 401 });
   }
 
-  const supabase = await createServerClient();
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
-
-  if (error) {
-    return NextResponse.json({ error: 'Credenziali non valide.' }, { status: 401 });
-  }
-
-  return NextResponse.json({ ok: true });
+  attempts.delete(ip);
+  const res = NextResponse.json({ ok: true });
+  res.cookies.set('admin_session', adminKey, {
+    httpOnly: true,
+    secure: true,
+    sameSite: 'strict',
+    maxAge: 60 * 60 * 24 * 7,
+    path: '/admin',
+  });
+  return res;
 }

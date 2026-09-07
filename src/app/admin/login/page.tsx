@@ -4,32 +4,29 @@ import { useRouter } from 'next/navigation';
 import { COL } from '@/lib/col';
 
 export default function AdminLoginPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [key, setKey] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setError('');
     setLoading(true);
+    setError('');
     try {
       const res = await fetch('/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ key: key.trim() }),
       });
       if (!res.ok) {
-        const data = await res.json();
-        setError(data.error ?? 'Errore sconosciuto.');
+        setError('Chiave non valida.');
+        setLoading(false);
         return;
       }
       router.push('/admin');
-      router.refresh();
     } catch {
       setError('Errore di rete.');
-    } finally {
       setLoading(false);
     }
   }
@@ -57,27 +54,14 @@ export default function AdminLoginPage() {
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <div>
             <label className="block text-xs mb-1.5" style={{ color: '#B7BEC9' }}>
-              Email
-            </label>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              autoComplete="email"
-              style={inputStyle}
-            />
-          </div>
-          <div>
-            <label className="block text-xs mb-1.5" style={{ color: '#B7BEC9' }}>
-              Password
+              Chiave di accesso
             </label>
             <input
               type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={key}
+              onChange={(e) => setKey(e.target.value)}
               required
-              autoComplete="current-password"
+              autoFocus
               style={inputStyle}
             />
           </div>

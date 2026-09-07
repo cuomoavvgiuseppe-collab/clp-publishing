@@ -1,14 +1,13 @@
+import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { createServerClient } from '@/lib/supabase/server';
 import { COL } from '@/lib/col';
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
-  const supabase = await createServerClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const cookieStore = await cookies();
+  const session = cookieStore.get('admin_session')?.value;
+  const adminKey = process.env.ADMIN_KEY;
 
-  if (!user) redirect('/admin/login');
+  if (!adminKey || session !== adminKey) redirect('/admin/login');
 
   return (
     <div style={{ backgroundColor: COL.navy, color: COL.warm, minHeight: '100vh' }}>
@@ -18,9 +17,6 @@ export default async function AdminLayout({ children }: { children: React.ReactN
             <div className="text-[11px] font-mono tracking-widest mb-1" style={{ color: COL.gold }}>
               CLP PUBLISHING — ADMIN
             </div>
-            <p className="text-xs" style={{ color: '#6B7280' }}>
-              {user.email}
-            </p>
           </div>
           <form action="/api/admin/logout" method="POST">
             <button

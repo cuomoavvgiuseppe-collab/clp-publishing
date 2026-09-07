@@ -1,10 +1,15 @@
 import { NextResponse } from 'next/server';
-import { createServerClient } from '@/lib/supabase/server';
 
 export async function POST() {
-  const supabase = await createServerClient();
-  await supabase.auth.signOut();
-  return NextResponse.redirect(
+  const res = NextResponse.redirect(
     new URL('/admin/login', process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000')
   );
+  res.cookies.set('admin_session', '', {
+    httpOnly: true,
+    secure: true,
+    sameSite: 'strict',
+    maxAge: 0,
+    path: '/admin',
+  });
+  return res;
 }
