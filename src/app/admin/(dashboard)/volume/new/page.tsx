@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import PublicationForm from '@/app/admin/_components/PublicationForm';
+import PublicationForm from '@/app/admin/(dashboard)/_components/PublicationForm';
 import { COL } from '@/lib/col';
 
 export default function NewVolumePage() {

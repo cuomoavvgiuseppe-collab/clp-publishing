@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { adminGetPublication } from '@/lib/db';
-import PublicationForm from '@/app/admin/_components/PublicationForm';
+import PublicationForm from '@/app/admin/(dashboard)/_components/PublicationForm';
 import { COL } from '@/lib/col';
 
 export default async function EditVolumePage({
