@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PageViewTracker from '@/components/PageViewTracker';
 import { COL } from '@/lib/col';
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         style={{ backgroundColor: COL.navy, color: COL.warm }}
         className="antialiased overflow-x-hidden"
       >
+        <PageViewTracker />
         <Header />
         <main>{children}</main>
         <Footer />
