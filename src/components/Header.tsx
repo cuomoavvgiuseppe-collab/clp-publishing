@@ -41,7 +41,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8 text-sm" style={{ color: '#B7BEC9' }}>
           <Link href="/#catalogo" className="hover:text-white transition-colors">Volumi</Link>
           <Link href="/collane" className="hover:text-white transition-colors">Collane</Link>
-          <Link href="/autore" className="hover:text-white transition-colors">L&apos;autore</Link>
+          <Link href="/chi-sono" className="hover:text-white transition-colors">Chi sono</Link>
         </nav>
         <Link
           href="/#catalogo"
