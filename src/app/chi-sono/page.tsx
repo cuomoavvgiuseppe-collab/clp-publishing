@@ -26,30 +26,46 @@ const SPECIALIZZAZIONI = [
 export default function ChiSonoPage() {
   return (
     <article>
+      <style>{`
+        .cs-hero-grid { display: grid; grid-template-columns: 1fr 200px; gap: 56px; align-items: start; }
+        @media (max-width: 640px) { .cs-hero-grid { grid-template-columns: 1fr; } .cs-hero-photo { display: none; } }
+      `}</style>
+
       {/* Hero */}
       <section className="py-24 sm:py-32" style={{ background: COL.navy }}>
         <div className="max-w-4xl mx-auto px-5 sm:px-8">
-          <div className="text-[11px] font-mono tracking-widest mb-6" style={{ color: COL.gold }}>
-            CLP CUOMO LEGAL PUBLISHING — CHI SONO
-          </div>
-          <h1 className="serif text-[2.2rem] sm:text-[3rem] leading-[1.1] mb-4" style={{ color: COL.warm }}>
-            Avv. Giuseppe Cuomo
-          </h1>
-          <p className="serif text-lg mb-10" style={{ color: 'rgba(242,239,234,0.6)', fontStyle: 'italic' }}>
-            Avvocato Cassazionista · Legal Technologist · AI Specialist
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', border: '1px solid rgba(201,168,76,0.2)' }}>
-            {[
-              { v: '25+', l: 'Anni di esperienza' },
-              { v: '1.000+', l: 'Clienti assistiti' },
-              { v: '34+', l: 'Certificazioni int.li' },
-              { v: '2014', l: 'Cassazione' },
-            ].map((s, i) => (
-              <div key={i} style={{ padding: '18px 26px', borderRight: i < 3 ? '1px solid rgba(201,168,76,0.2)' : 'none' }}>
-                <p className="serif text-2xl mb-1" style={{ color: COL.gold }}>{s.v}</p>
-                <p className="text-[10px] tracking-widest uppercase" style={{ color: 'rgba(242,239,234,0.45)' }}>{s.l}</p>
+          <div className="cs-hero-grid">
+            <div>
+              <div className="text-[11px] font-mono tracking-widest mb-6" style={{ color: COL.gold }}>
+                CLP CUOMO LEGAL PUBLISHING — CHI SONO
               </div>
-            ))}
+              <h1 className="serif text-[2.2rem] sm:text-[3rem] leading-[1.1] mb-4" style={{ color: COL.warm }}>
+                Avv. Giuseppe Cuomo
+              </h1>
+              <p className="serif text-lg mb-10" style={{ color: 'rgba(242,239,234,0.6)', fontStyle: 'italic' }}>
+                Avvocato Cassazionista · Legal Technologist · AI Specialist
+              </p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', border: '1px solid rgba(201,168,76,0.2)' }}>
+                {[
+                  { v: '25+', l: 'Anni di esperienza' },
+                  { v: '1.000+', l: 'Clienti assistiti' },
+                  { v: '34+', l: 'Certificazioni int.li' },
+                  { v: '2014', l: 'Cassazione' },
+                ].map((s, i) => (
+                  <div key={i} style={{ padding: '18px 26px', borderRight: i < 3 ? '1px solid rgba(201,168,76,0.2)' : 'none' }}>
+                    <p className="serif text-2xl mb-1" style={{ color: COL.gold }}>{s.v}</p>
+                    <p className="text-[10px] tracking-widest uppercase" style={{ color: 'rgba(242,239,234,0.45)' }}>{s.l}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="cs-hero-photo" style={{ paddingTop: '40px' }}>
+              <img
+                src="/avvocato-cuomo.webp"
+                alt="Avv. Giuseppe Cuomo"
+                style={{ width: '100%', height: '280px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '2px', border: '1px solid rgba(201,168,76,0.18)' }}
+              />
+            </div>
           </div>
         </div>
       </section>
